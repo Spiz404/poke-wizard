@@ -2,6 +2,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import Grid from '@mui/material/Grid';
 import PokemonCard from './PokemonCard'
+import CircularIndeterminate from './CircularIndeterminate'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
@@ -67,11 +68,11 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
     */
 
     if (isLoading) {
-        return <div>Loading...</div>
+        return <CircularIndeterminate />
     }
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} className="grid">
                 {pokemonDetailsList.map((e) => {
                     return (
                         <Grid item key = {e.name}>
