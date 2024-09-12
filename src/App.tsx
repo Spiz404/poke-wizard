@@ -25,6 +25,19 @@ function App() {
           </Step>
         ))}
       </Stepper>
+
+      {activeStep === 0 && <div>
+        <h1>Pokemon trainer details</h1>
+      </div>}
+
+      {activeStep === 1 && <div>
+        <h1>Pokemon team selection</h1>
+      </div>}
+
+      {activeStep === 2 && <div>
+        <h1>Opponent team selection</h1>
+      </div>}
+
     </div>
   )
 }
