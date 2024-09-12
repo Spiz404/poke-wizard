@@ -1,4 +1,4 @@
-import {Card, CardContent, CardMedia, Typography } from '@mui/material'
+import {Card, CardContent, CardMedia, Typography, Button } from '@mui/material'
 interface Pokemon {
     name: string
     image: string 
@@ -13,10 +13,11 @@ const PokemonCard = ({pokemon}: {pokemon: Pokemon}) => {
                 image={pokemon.image}
                 alt={pokemon.name}
             />
-            <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+            <CardContent sx={{height: 100}} style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center'}}>
                     {pokemon.name}
                 </Typography>
+                <Button> select</Button>
             </CardContent>
         </Card>
     )
