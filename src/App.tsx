@@ -6,6 +6,7 @@ import StepLabel from "@mui/material/StepLabel"
 import TrainerComponent from './TrainerComponent'
 import TeamSelectionComponent from './TeamSelectionComponent'
 import OpponentTeamComponent from './OpponentTeamComponent'
+import axios from 'axios'
 
 const API_BASE_URL = "https://pokeapi.co/api/v2"
 const DEBUG = false
@@ -41,11 +42,11 @@ function App() {
 
   // fetching pokemon types on App component mount
   useEffect(() => {
-    fetch(`${API_BASE_URL}/type`)
-    .then(response => response.json())
-    .then(data => setPokemonTypes(data.results))
+    axios.get(`${API_BASE_URL}/type`)
+    .then(res => setPokemonTypes(res.data.results))
   }, []);
 
+  // debug stuff
   useEffect(() => {
 
     if (DEBUG) {
