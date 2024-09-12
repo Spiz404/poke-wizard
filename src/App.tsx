@@ -3,16 +3,23 @@ import { useState, useEffect } from 'react'
 import Stepper from "@mui/material/Stepper"
 import Step from "@mui/material/Step"
 import StepLabel from "@mui/material/StepLabel"
-import StepContent from "@mui/material/StepContent"
 import TrainerComponent from './TrainerComponent'
 import TeamSelectionComponent from './TeamSelectionComponent'
 import OpponentTeamComponent from './OpponentTeamComponent'
 
+const API_BASE_URL = "https://pokeapi.co/api/v2"
+const DEBUG = false
 function App() {
 
   interface TrainerDetails {
-    playerName: string
-    teamName: string
+    playerName: string,
+    teamName: string,
+    pokemonType: string
+  }
+
+  interface PokemonType {
+    name: string,
+    url : string
   }
 
   const steps = [
@@ -21,9 +28,32 @@ function App() {
     "Opponent team selection"
   ]
 
-  const [trainerDetails, setTrainerDetails] = useState<TrainerDetails>({playerName: "", teamName: ""})
+  const [trainerDetails, setTrainerDetails] = useState<TrainerDetails>({playerName: "", teamName: "", pokemonType: ""})
   const [activeStep, setActiveStep] = useState<number>(0)
-  const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== ""
+  // trainer details are complete if playerName, teamName and pokemonType are set
+  const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== "" && trainerDetails?.pokemonType != undefined
+  /* 
+    list of all pokemon types, 
+    inserted in the App component to avoid re-fetching on every render 
+    of TeamSelectionComponent 
+  */
+  const [pokemonTypes, setPokemonTypes] = useState<PokemonType[]>([])
+
+  // fetching pokemon types on App component mount
+  useEffect(() => {
+    fetch(`${API_BASE_URL}/type`)
+    .then(response => response.json())
+    .then(data => setPokemonTypes(data.results))
+  }, []);
+
+  useEffect(() => {
+
+    if (DEBUG) {
+      console.log("TRAINER DETAILS IN APP", trainerDetails)
+    }
+
+  }, [trainerDetails])
+
   const isTeamSelected = true 
 
   // this function checks if a step forward is possible and updates the active step
@@ -43,13 +73,6 @@ function App() {
     setActiveStep(step)
   }
 
-  useEffect(() => {
-    console.log("trainer details modificati");
-    console.log(trainerDetails)
-  }, [trainerDetails]);
-
-
-
   return (
     <div className="main-container">
       <Stepper activeStep={activeStep} className="stepper">
@@ -61,7 +84,7 @@ function App() {
       </Stepper>
 
       {activeStep === 0 && <div>
-        <TrainerComponent setTrainerDetails={setTrainerDetails} trainerDetails={trainerDetails}/>
+        <TrainerComponent setTrainerDetails={setTrainerDetails} trainerDetails={trainerDetails} listPokemonTypes={pokemonTypes}/>
       </div>}
 
       {activeStep === 1 && <div>
