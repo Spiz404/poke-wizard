@@ -8,7 +8,7 @@ import TeamSelectionComponent from './TeamSelectionComponent'
 import OpponentTeamComponent from './OpponentTeamComponent'
 import axios from 'axios'
 
-const API_BASE_URL = "https://pokeapi.co/api/v2"
+const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 const DEBUG = false
 function App() {
 
@@ -89,7 +89,7 @@ function App() {
       </div>}
 
       {activeStep === 1 && <div>
-        <TeamSelectionComponent />
+        <TeamSelectionComponent favoritePokemonType={trainerDetails.pokemonType} />
       </div>}
 
       {activeStep === 2 && <div>
