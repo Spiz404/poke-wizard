@@ -32,7 +32,7 @@ function App() {
   const [trainerDetails, setTrainerDetails] = useState<TrainerDetails>({playerName: "", teamName: "", pokemonType: ""})
   const [activeStep, setActiveStep] = useState<number>(0)
   // trainer details are complete if playerName, teamName and pokemonType are set
-  const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== "" && trainerDetails?.pokemonType != undefined
+  const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== "" && trainerDetails.pokemonType !== "" 
   /* 
     list of all pokemon types, 
     inserted in the App component to avoid re-fetching on every render 
