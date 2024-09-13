@@ -21,8 +21,8 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList}: {pokemon: Po
     if (!selected) {
 
         return (
-            <Card sx={{ width: 150 }}>
-                <CardActionArea onClick={() => selectCurrentPokemon()}>
+            <Card sx={{ width: 150, height: 200 }}>
+                <CardActionArea onClick={() => selectCurrentPokemon()} sx={{color: 'green'}}>
                     <CardMedia
                         component="img"
                         height="140"
@@ -30,7 +30,7 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList}: {pokemon: Po
                         alt={pokemon.name}
                     />
                     <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                        <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center'}}>
+                        <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center', color: 'black'}}>
                             {pokemon.name}
                         </Typography>
                         </CardContent>
@@ -41,7 +41,7 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList}: {pokemon: Po
     }
     else {
         return (
-                    <Card sx={{ width: 150 }}>
+                    <Card sx={{ width: 150, height: 200, opacity: 0.5 }}>
 
                         <CardMedia
                             component="img"

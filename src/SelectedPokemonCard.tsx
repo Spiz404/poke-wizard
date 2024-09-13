@@ -1,4 +1,4 @@
-import {Card, CardContent, CardMedia, Typography, Button } from '@mui/material'
+import {Card, CardContent, CardMedia, CardActionArea, Typography, Button } from '@mui/material'
 import { useState } from 'react'
 
 interface Pokemon {
@@ -8,12 +8,9 @@ interface Pokemon {
 
 const PokemonCard = ({pokemon, removePokemon}: {pokemon: Pokemon, removePokemon: (pokemonName: string) => void}) => {
 
-    const [isHovered, setIsHovered] = useState(false);
-
-    
-
     return (
-        <Card className="selected-pokemon-card" sx={{ width: 150 }}  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+        <Card className="selected-pokemon-card" sx={{ width: 150 }} >
+            <CardActionArea onClick={() => removePokemon(pokemon.name)} sx={{color: 'red'}}>
             <CardMedia
                 component="img"
                 height="100"
@@ -21,12 +18,12 @@ const PokemonCard = ({pokemon, removePokemon}: {pokemon: Pokemon, removePokemon:
                 alt={pokemon.name}
             />
             <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center'}}>
+                <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center', color: 'black'}}>
                     {pokemon.name}
                 </Typography>
 
-                {isHovered && <Button variant="contained" color="error" onClick={() => removePokemon(pokemon.name)}>Remove</Button>}
             </CardContent>
+            </CardActionArea>
         </Card>
     )
 }
