@@ -15,7 +15,7 @@ const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
     40 pokemon will have the favoritePokemonType
     60 pokemon will have a random type
 */
-const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favoritePokemonType: string, setSelectedPokemon: (pokemon: any) => void}) => {
+const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favoritePokemonType: string, setSelectedPokemon: (pokemon: PokemonAPIResponse[]) => void}) => {
 
     interface Pokemon {
         name: string

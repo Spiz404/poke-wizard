@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import CircularIndeterminate from "./CircularIndeterminate";
+import { Alert } from "@mui/material";
 const SuccessPage = () => {
 
     const [loading, setLoading] = useState(true);
@@ -18,7 +19,7 @@ const SuccessPage = () => {
     }
     return (
         <div>
-            <h1>your request has been processed</h1>
+            <Alert severity="success">Your request has been processed</Alert>
         </div>
     );
 }   
