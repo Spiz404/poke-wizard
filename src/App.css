@@ -101,3 +101,17 @@
     gap: 5px;
     justify-content: center;
 }
+
+.pokemon-card-stats {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pokemon-card-stats p {
+    margin: 0;
+    padding:5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #383838;
+}

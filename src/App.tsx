@@ -103,7 +103,7 @@ function App() {
       </div>}
 
       {activeStep === 2 && <div>
-        <OpponentTeamComponent />
+        <OpponentTeamComponent selectedPokemons={selectedPokemon} />
       </div>}
 
     </div>

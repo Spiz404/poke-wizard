@@ -12,15 +12,8 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}:
 
     const selectCurrentPokemon = () => {
         showPokemon(pokemon)
-        /*
-        if (!selected) {
-            selectPokemon(pokemon)
-        }
-            */
-
     }
-
-    const [error, setError] = useState(false)
+    
     if (!selected) {
 
         return (
