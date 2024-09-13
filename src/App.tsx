@@ -9,6 +9,7 @@ import OpponentTeamComponent from './OpponentTeamComponent'
 import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
+import { PokemonTypesListAPIResponse } from './types/pokemonAPi'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 const DEBUG = false
@@ -46,6 +47,7 @@ function App() {
 
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);
+
   // fetching pokemon types on App component mount
   useEffect(() => {
     axios.get(`${API_BASE_URL}/type`)
