@@ -18,7 +18,7 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}:
 
         return (
             <Card sx={{ width: 150, height: 275}}>
-                <CardActionArea onClick={() => selectCurrentPokemon()} sx={{color: 'green'}}>
+                <CardActionArea onClick={() => selectCurrentPokemon()} sx={{color: 'green', height: '100%'}}>
                     <CardMedia
                         component="img"
                         height="140"
