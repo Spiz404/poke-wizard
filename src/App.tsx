@@ -9,7 +9,6 @@ import OpponentTeamComponent from './OpponentTeamComponent'
 import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
-import { PokemonTypesListAPIResponse } from './types/pokemonAPi'
 import { TypeResult, PokemonTypeAPIResponse } from './types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL

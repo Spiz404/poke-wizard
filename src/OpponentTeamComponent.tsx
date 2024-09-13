@@ -3,6 +3,8 @@ import { Button, Grid } from '@mui/material';
 import CircularIndeterminate from "./CircularIndeterminate";
 import axios from "axios";
 import OpponentPokemonCard from "./OpponentPokemonCard";
+import { PokemonAPIResponse } from "./types/pokemonAPI";
+import { PokemonSpecieAPIResponse } from "./types/pokemonSpeciesAPI";
 
 const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) => {
 
@@ -19,8 +21,11 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
             const randomId = Math.floor(Math.random() * 1302) + 1;
 
             try {
-                const pokemon = await axios.get(`https://pokeapi.co/api/v2/pokemon/${randomId}`);
-                const pokemonSpecie = await axios.get(pokemon.data.species.url);
+
+                const pokemon = await axios.get<PokemonAPIResponse>(`https://pokeapi.co/api/v2/pokemon/${randomId}`);
+                
+                const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(pokemon.data.species.url);
+
                 if (!generations.includes(pokemonSpecie.data.generation.name)) {
                     opponentTeam.push(pokemon.data);
                 }
