@@ -6,8 +6,9 @@ import StepLabel from "@mui/material/StepLabel"
 import TrainerComponent from './TrainerComponent'
 import TeamSelectionComponent from './TeamSelectionComponent'
 import OpponentTeamComponent from './OpponentTeamComponent'
+import SuccessPage from './SuccessPage'
 import axios from 'axios'
-import { Snackbar, Alert } from '@mui/material'
+import { Snackbar, Alert, Button } from '@mui/material'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 const DEBUG = false
@@ -65,7 +66,10 @@ function App() {
   // this function checks if a step forward is possible and updates the active step
   const switchStep = (step: number) => {
 
-    
+    if (step < 0 || step > 3) {
+      return;
+    }
+
     // can switch from step 0 to step 1 ONLY if all the trainer details are set    
     if (step > activeStep && activeStep === 0 && !isTrainerDetailsComplete) {
       setErrorMessage("Please set your trainer details before proceeding")
@@ -94,6 +98,10 @@ function App() {
         ))}
       </Stepper>
 
+        <div style = {{display: 'flex', justifyContent: 'center', flexDirection: 'row', width: '60%', gap: '10px'}}>
+          <Button variant = "contained" onClick={() => switchStep(activeStep - 1)}> back </Button>
+          <Button variant = "contained" onClick={() => switchStep(activeStep + 1)}> next </Button>
+        </div>
       {activeStep === 0 && <div>
         <TrainerComponent setTrainerDetails={setTrainerDetails} trainerDetails={trainerDetails} listPokemonTypes={pokemonTypes}/>
       </div>}
@@ -106,7 +114,12 @@ function App() {
         <OpponentTeamComponent selectedPokemons={selectedPokemon} />
       </div>}
 
+      {activeStep === 3 && <div>
+       <SuccessPage/> 
+      </div>}
+
     </div>
+
     <Snackbar onClose={() => setError(false)} anchorOrigin={{vertical: 'top', horizontal: 'center'}} autoHideDuration={2000}  open={error}>
       <Alert severity="error">{errorMessage}</Alert>
     </Snackbar>
