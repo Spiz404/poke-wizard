@@ -1,18 +1,9 @@
 import {TextField, Autocomplete } from "@mui/material"
 import { useState, useEffect } from "react"
+import { TypeResult } from "./types/pokemonTypeAPI"
+import { TrainerDetails } from "./types/appTypes"
 
-interface TrainerDetails {
-    playerName: string
-    teamName: string
-    pokemonType: string
-}
-
-interface PokemonType {
-    name: string
-    url: string
-}
-
-const TrainerComponent = ({setTrainerDetails, trainerDetails, listPokemonTypes}: {setTrainerDetails: (trainerDetails: TrainerDetails) => void, trainerDetails: TrainerDetails, listPokemonTypes: PokemonType[]}) => {
+const TrainerComponent = ({setTrainerDetails, trainerDetails, listPokemonTypes}: {setTrainerDetails: (trainerDetails: TrainerDetails) => void, trainerDetails: TrainerDetails, listPokemonTypes: TypeResult[]}) => {
     
     const [playerName, setPlayerName] = useState<string>("")
     const [teamName, setTeamName] = useState<string>("")

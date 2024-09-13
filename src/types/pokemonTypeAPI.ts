@@ -1,7 +1,7 @@
 
 // types fro /type endpoint
 
-export interface PokemonTypeAPIResponse {
+export interface PokemonTypeListAPIResponse {
     count:    number;
     next:     string;
     previous: null;

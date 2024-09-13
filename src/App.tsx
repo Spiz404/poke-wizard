@@ -10,21 +10,14 @@ import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
 import { TypeResult, PokemonTypeAPIResponse } from './types/pokemonTypeAPI'
+import { TrainerDetails } from './types/appTypes'
+import { PokemonAPIResponse } from './types/pokemonAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 const DEBUG = false
 function App() {
 
-  interface TrainerDetails {
-    playerName: string,
-    teamName: string,
-    pokemonType: string
-  }
-
-  interface PokemonType {
-    name: string,
-    url : string
-  }
+ 
 
   const steps = [
     "Trainer details",
@@ -44,7 +37,7 @@ function App() {
   */
   const [pokemonTypes, setPokemonTypes] = useState<TypeResult[]>([])
 
-  const [selectedPokemon, setSelectedPokemon] = useState<any[]>([])
+  const [selectedPokemon, setSelectedPokemon] = useState<PokemonAPIResponse[]>([])
 
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);

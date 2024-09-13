@@ -5,6 +5,8 @@ import PokemonCard from './PokemonCard'
 import CircularIndeterminate from './CircularIndeterminate'
 import SelectedPokemonCard from './SelectedPokemonCard'
 import PokemonComponent from './PokemonComponent'
+import { PokemonAPIResponse, PokemonListAPIResponse } from './types/pokemonAPI'
+import { PokemonTypeAPIResponse } from './types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
@@ -21,12 +23,12 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
     }
     const [isLoading, setIsLoading] = useState(true)
     const [pokemonList, setPokemonList] = useState<Pokemon[]>([])
-    const [pokemonDetailsList, setPokemonDetailsList] = useState<any[]>([])
-    const [selectedPokemonList, setSelectedPokemonList] = useState<any[]>([])
-    const [showedPokemon, setShowedPokemon] = useState<any>(null)
+    const [pokemonDetailsList, setPokemonDetailsList] = useState<PokemonAPIResponse[]>([])
+    const [selectedPokemonList, setSelectedPokemonList] = useState<PokemonAPIResponse[]>([])
+    const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
     const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
 
-    const selectPokemon = (pokemon: any) => {
+    const selectPokemon = (pokemon: PokemonAPIResponse) => {
 
         if (selectedPokemonList.length < 7 && !selectedPokemonList.includes(pokemon)) {
             const updatedList = [...selectedPokemonList, pokemon]
@@ -47,7 +49,7 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
         set the pokemon to show and opens the dialog
     */
 
-    const showPokemonDialog = (pokemon: any) => {
+    const showPokemonDialog = (pokemon: PokemonAPIResponse) => {
         setShowedPokemon(pokemon)
         setOpenPokemonDialog(true)
     }
@@ -62,14 +64,14 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
             try {
 
                 // fetching favorite type pokemons
-                const data = await axios.get(`${API_BASE_URL}/type/${favoritePokemonType}`)
+                const data = await axios.get<PokemonTypeAPIResponse>(`${API_BASE_URL}/type/${favoritePokemonType}`)
                 const pokemonListWithSlot = data.data.pokemon.slice(0, 40)
 
                 const favPokemons = pokemonListWithSlot.map((e: {pokemon: Pokemon, slot: number}) => e.pokemon) 
                 const favPokemonsNames = favPokemons.map((e: Pokemon) => e.name)
                 
                 // fetching other pokemons
-                const otherPokemons = await axios.get(`${API_BASE_URL}/pokemon?limit=100`)
+                const otherPokemons = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=100`)
                 // filtering to avoid duplicates
                 let filteredPokemons = otherPokemons.data.results.filter((e: Pokemon) => !favPokemonsNames.includes(e.name))
                 filteredPokemons = filteredPokemons.slice(0, 60)
@@ -77,9 +79,9 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
                 const pokemons = [...favPokemons, ...filteredPokemons]
 
                 // fetching details for all selected pokemons
-                const pokemonsDetails = await Promise.all(
+                const pokemonsDetails : PokemonAPIResponse[] = await Promise.all(
                     pokemons.map(async (pokemon) => {
-                        const pokemonDetails = await axios.get(pokemon.url)
+                        const pokemonDetails = await axios.get<PokemonAPIResponse>(pokemon.url)
                         return pokemonDetails.data
                     })
                 );
