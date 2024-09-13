@@ -13,7 +13,7 @@ const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
     40 pokemon will have the favoritePokemonType
     60 pokemon will have a random type
 */
-const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: string}) => {
+const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favoritePokemonType: string, setSelectedPokemon: (pokemon: any) => void}) => {
 
     interface Pokemon {
         name: string
@@ -29,7 +29,9 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
     const selectPokemon = (pokemon: any) => {
 
         if (selectedPokemonList.length < 7 && !selectedPokemonList.includes(pokemon)) {
-            setSelectedPokemonList([...selectedPokemonList, pokemon])
+            const updatedList = [...selectedPokemonList, pokemon]
+            setSelectedPokemonList(updatedList)
+            setSelectedPokemon(updatedList)
         }
     }
 
@@ -92,6 +94,7 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
             }
         }
 
+        setSelectedPokemon([])
         fetchData()
         .catch(error => console.error(error))
     }, [])

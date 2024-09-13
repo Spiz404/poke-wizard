@@ -7,6 +7,7 @@ import TrainerComponent from './TrainerComponent'
 import TeamSelectionComponent from './TeamSelectionComponent'
 import OpponentTeamComponent from './OpponentTeamComponent'
 import axios from 'axios'
+import { Snackbar, Alert } from '@mui/material'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 const DEBUG = false
@@ -40,6 +41,10 @@ function App() {
   */
   const [pokemonTypes, setPokemonTypes] = useState<PokemonType[]>([])
 
+  const [selectedPokemon, setSelectedPokemon] = useState<any[]>([])
+
+  const [errorMessage, setErrorMessage] = useState("");
+  const [error, setError] = useState(false);
   // fetching pokemon types on App component mount
   useEffect(() => {
     axios.get(`${API_BASE_URL}/type`)
@@ -55,19 +60,23 @@ function App() {
 
   }, [trainerDetails])
 
-  const isTeamSelected = true 
+  const isTeamSelected = selectedPokemon.length == 7
 
   // this function checks if a step forward is possible and updates the active step
   const switchStep = (step: number) => {
 
     
     // can switch from step 0 to step 1 ONLY if all the trainer details are set    
-    if (step > activeStep && step === 1 && !isTrainerDetailsComplete) {
+    if (step > activeStep && activeStep === 0 && !isTrainerDetailsComplete) {
+      setErrorMessage("Please set your trainer details before proceeding")
+      setError(true)
       return 
     }
 
     // can switch from step 0 or 1 to step 2 ONLY if trainerDetails are set and pokemon team is selected
-    if (step > activeStep && step === 2 && (!isTrainerDetailsComplete || !isTeamSelected)) {
+    if (step > activeStep && activeStep === 1 && (!isTrainerDetailsComplete || !isTeamSelected)) {
+      setErrorMessage("Please set your pokemon team before proceeding")
+      setError(true)
       return
     }
 
@@ -75,6 +84,7 @@ function App() {
   }
 
   return (
+    <>
     <div className="main-container">
       <Stepper activeStep={activeStep} className="stepper">
         {steps.map((step, index) => (
@@ -89,7 +99,7 @@ function App() {
       </div>}
 
       {activeStep === 1 && <div>
-        <TeamSelectionComponent favoritePokemonType={trainerDetails.pokemonType} />
+        <TeamSelectionComponent favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemon={setSelectedPokemon} />
       </div>}
 
       {activeStep === 2 && <div>
@@ -97,6 +107,10 @@ function App() {
       </div>}
 
     </div>
+    <Snackbar onClose={() => setError(false)} anchorOrigin={{vertical: 'top', horizontal: 'center'}} autoHideDuration={2000}  open={error}>
+      <Alert severity="error">{errorMessage}</Alert>
+    </Snackbar>
+    </>
   )
 }
 

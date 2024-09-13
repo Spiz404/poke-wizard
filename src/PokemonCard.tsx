@@ -20,10 +20,11 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}:
 
     }
 
+    const [error, setError] = useState(false)
     if (!selected) {
 
         return (
-            <Card sx={{ width: 150, height: 250}}>
+            <Card sx={{ width: 150, height: 275}}>
                 <CardActionArea onClick={() => selectCurrentPokemon()} sx={{color: 'green'}}>
                     <CardMedia
                         component="img"
@@ -48,7 +49,7 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}:
     }
     else {
         return (
-                    <Card sx={{ width: 150, height:250, opacity: 0.5 }}>
+                    <Card sx={{ width: 150, height:275, opacity: 0.5 }}>
 
                         <CardMedia
                             component="img"
