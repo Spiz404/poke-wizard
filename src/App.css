@@ -56,3 +56,35 @@
     align-items: center;
 }
 
+.types-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.forms-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.moves-container {
+   display: flex; 
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 5px;
+   overflow-y: auto;
+   height: 200px;
+}
+
+.dialog-buttons-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+

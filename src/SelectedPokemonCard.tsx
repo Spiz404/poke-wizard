@@ -6,7 +6,7 @@ interface Pokemon {
     image: string 
 }
 
-const PokemonCard = ({pokemon, removePokemon}: {pokemon: Pokemon, removePokemon: (pokemonName: string) => void}) => {
+const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (pokemonName: string) => void}) => {
 
     return (
         <Card className="selected-pokemon-card" sx={{ width: 150 }} >
@@ -14,7 +14,7 @@ const PokemonCard = ({pokemon, removePokemon}: {pokemon: Pokemon, removePokemon:
             <CardMedia
                 component="img"
                 height="100"
-                image={pokemon.image}
+                image={pokemon.sprites.front_default}
                 alt={pokemon.name}
             />
             <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>

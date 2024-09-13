@@ -6,15 +6,17 @@ interface Pokemon {
     image: string 
 }
 
-const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList}: {pokemon: Pokemon, selectPokemon: (pokemon: any) => void, selectedPokemonList: any[]}) => {
+const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}: {pokemon: Pokemon, selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
 
     const selected = selectedPokemonList.filter((p) => p.name === pokemon.name).length > 0
 
     const selectCurrentPokemon = () => {
-
+        showPokemon(pokemon)
+        /*
         if (!selected) {
             selectPokemon(pokemon)
         }
+            */
 
     }
 

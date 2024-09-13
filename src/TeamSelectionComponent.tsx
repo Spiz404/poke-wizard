@@ -4,6 +4,7 @@ import Grid from '@mui/material/Grid';
 import PokemonCard from './PokemonCard'
 import CircularIndeterminate from './CircularIndeterminate'
 import SelectedPokemonCard from './SelectedPokemonCard'
+import PokemonComponent from './PokemonComponent'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
@@ -22,6 +23,8 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
     const [pokemonList, setPokemonList] = useState<Pokemon[]>([])
     const [pokemonDetailsList, setPokemonDetailsList] = useState<any[]>([])
     const [selectedPokemonList, setSelectedPokemonList] = useState<any[]>([])
+    const [showedPokemon, setShowedPokemon] = useState<any>(null)
+    const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
 
     const selectPokemon = (pokemon: any) => {
 
@@ -30,8 +33,26 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
         }
     }
 
+    
+
+    // function that removes a pokemon from the selected list
     const removePokemon = (pokemonName: string) => {
         setSelectedPokemonList(selectedPokemonList.filter((pokemon) => pokemon.name !== pokemonName))
+    }
+    
+    /* 
+        function to show the pokemon details dialog
+        set the pokemon to show and opens the dialog
+    */
+
+    const showPokemonDialog = (pokemon: any) => {
+        setShowedPokemon(pokemon)
+        setOpenPokemonDialog(true)
+    }
+
+    const closePokemonDialog = () => {
+        setOpenPokemonDialog(false)
+        setShowedPokemon(null)
     }
 
     useEffect(() => {
@@ -75,38 +96,33 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
         .catch(error => console.error(error))
     }, [])
     
-    /*
-    useEffect(() => {
-        console.log("pokemonList", pokemonList)
-    }, [pokemonList])
-    */
-
+    // loading indicator while fetching data
     if (isLoading) {
         return <CircularIndeterminate />
     }
 
-        return (
-       <>
-        
-        <Grid container spacing = {2} className="selected-team-grid">
-            { selectedPokemonList.length == 0 && <p className="no-pokemon-selected">No pokemons selected, select your team!</p> }
-            { selectedPokemonList.map((e) => {
-                return (
-                    <Grid item key={e.name}>
-                        <SelectedPokemonCard key={e.name} pokemon={e} removePokemon={removePokemon}></SelectedPokemonCard>
-                    </Grid>
-                )
-            })}
-        </Grid>
-        <Grid container spacing={2} className="grid">
-                {pokemonDetailsList.map((e) => {
+    return (
+        <>
+            {openPokemonDialog && <PokemonComponent  selectPokemon={selectPokemon} onClose={closePokemonDialog} pokemon={showedPokemon} open={openPokemonDialog}></PokemonComponent>}
+            <Grid container spacing = {2} className="selected-team-grid">
+                { selectedPokemonList.length == 0 && <p className="no-pokemon-selected">No pokemons selected, select your team!</p> }
+                { selectedPokemonList.map((e) => {
                     return (
-                        <Grid item key = {e.name}>
-                                <PokemonCard selectedPokemonList={selectedPokemonList} selectPokemon={selectPokemon} key={e.name} pokemon={{name: e.name, image: e.sprites.front_default}}></PokemonCard>
+                        <Grid item key={e.name}>
+                            <SelectedPokemonCard key={e.name} pokemon={e} removePokemon={removePokemon}></SelectedPokemonCard>
                         </Grid>
                     )
                 })}
-        </Grid>
+            </Grid>
+            <Grid container spacing={2} className="grid">
+                    {pokemonDetailsList.map((e) => {
+                        return (
+                            <Grid item key = {e.name}>
+                                    <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} selectPokemon={selectPokemon} key={e.name} pokemon={{name: e.name, image: e.sprites.front_default}}></PokemonCard>
+                            </Grid>
+                        )
+                    })}
+            </Grid>
         </> 
     );
 }
