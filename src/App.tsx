@@ -9,7 +9,7 @@ import OpponentTeamComponent from './OpponentTeamComponent'
 import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
-import { TypeResult, PokemonTypeAPIResponse } from './types/pokemonTypeAPI'
+import { TypeResult, PokemonTypeAPIResponse, PokemonTypeListAPIResponse } from './types/pokemonTypeAPI'
 import { TrainerDetails } from './types/appTypes'
 import { PokemonAPIResponse } from './types/pokemonAPI'
 
@@ -44,7 +44,7 @@ function App() {
 
   // fetching pokemon types on App component mount 
   useEffect(() => {
-    axios.get<PokemonTypeAPIResponse>(`${API_BASE_URL}/type`)
+    axios.get<PokemonTypeListAPIResponse>(`${API_BASE_URL}/type`)
     .then(res => res.data)
     .then((data) => {setPokemonTypes(data.results)})
   }, []);

@@ -1,6 +1,7 @@
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button, Chip } from '@mui/material'
+import { PokemonAPIResponse } from './types/pokemonAPI'
 
-const PokemonComponent = ({pokemon, open, onClose, selectPokemon}: {pokemon: any, open: boolean, onClose: () => void, selectPokemon: (pokemon: any) => void}) => {
+const PokemonComponent = ({pokemon, open, onClose, selectPokemon}: {pokemon: PokemonAPIResponse, open: boolean, onClose: () => void, selectPokemon: (pokemon: any) => void}) => {
 
     return (
         <Dialog open={open}>
