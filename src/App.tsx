@@ -78,9 +78,9 @@ function App() {
     <div className="main-container">
       <Stepper activeStep={activeStep} className="stepper">
         {steps.map((step, index) => (
-          <Step key={index} onClick={() => switchStep(index)}>
-            <StepLabel>{step}</StepLabel>
-          </Step>
+            <Step key={index} onClick={() => switchStep(index)}>
+              <StepLabel onClick={() => switchStep(index)}>{step}</StepLabel>
+            </Step>
         ))}
       </Stepper>
 
