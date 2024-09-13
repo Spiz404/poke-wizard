@@ -118,7 +118,7 @@ const TeamSelectionComponent = ({favoritePokemonType}: {favoritePokemonType: str
                     {pokemonDetailsList.map((e) => {
                         return (
                             <Grid item key = {e.name}>
-                                    <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} selectPokemon={selectPokemon} key={e.name} pokemon={{name: e.name, image: e.sprites.front_default}}></PokemonCard>
+                                    <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} selectPokemon={selectPokemon} key={e.name} pokemon={e}></PokemonCard>
                             </Grid>
                         )
                     })}

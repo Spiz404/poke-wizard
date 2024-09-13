@@ -88,3 +88,16 @@
     gap: 10px;
 }
 
+.pokemon-card-content {
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.pokemon-card-types {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+}

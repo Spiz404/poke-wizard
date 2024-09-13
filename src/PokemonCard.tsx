@@ -1,4 +1,4 @@
-import {Card, CardContent, CardMedia, CardActionArea, Typography, Button } from '@mui/material'
+import {Card, CardContent, CardMedia, CardActionArea, Typography, Button, Chip } from '@mui/material'
 import { useState } from 'react'
 
 interface Pokemon {
@@ -6,7 +6,7 @@ interface Pokemon {
     image: string 
 }
 
-const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}: {pokemon: Pokemon, selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
+const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}: {pokemon : any , selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
 
     const selected = selectedPokemonList.filter((p) => p.name === pokemon.name).length > 0
 
@@ -23,18 +23,23 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}:
     if (!selected) {
 
         return (
-            <Card sx={{ width: 150, height: 200 }}>
+            <Card sx={{ width: 150, height: 250}}>
                 <CardActionArea onClick={() => selectCurrentPokemon()} sx={{color: 'green'}}>
                     <CardMedia
                         component="img"
                         height="140"
-                        image={pokemon.image}
+                        image={pokemon.sprites.front_default}
                         alt={pokemon.name}
                     />
-                    <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                    <CardContent className='pokemon-card-content'>
                         <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center', color: 'black'}}>
                             {pokemon.name}
                         </Typography>
+                        <div className='pokemon-card-types'>
+                            { pokemon.types.map((type: any) => {
+                                return <Chip key={type.type.name} label={type.type.name}></Chip>
+                            })}
+                        </div>
                         </CardContent>
                 </CardActionArea>
             </Card>
@@ -43,19 +48,24 @@ const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}:
     }
     else {
         return (
-                    <Card sx={{ width: 150, height: 200, opacity: 0.5 }}>
+                    <Card sx={{ width: 150, height:250, opacity: 0.5 }}>
 
                         <CardMedia
                             component="img"
                             height="140"
-                            image={pokemon.image}
+                            image={pokemon.sprites.front_default}
                             alt={pokemon.name}
                         />
-                        <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
+                        <CardContent  className='pokemon-card-content'>
                             <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center'}}>
                                 {pokemon.name}
                             </Typography>
-                            </CardContent>
+                            <div className='pokemon-card-types'>
+                            { pokemon.types.map((type: any) => {
+                                    return <Chip key={type.type.name} label={type.type.name}></Chip>
+                                })}
+                            </div>
+                        </CardContent>
                     </Card>
                 )
     }
