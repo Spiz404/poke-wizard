@@ -10,6 +10,7 @@ import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
 import { PokemonTypesListAPIResponse } from './types/pokemonAPi'
+import { TypeResult, PokemonTypeAPIResponse } from './types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 const DEBUG = false
@@ -34,6 +35,7 @@ function App() {
 
   const [trainerDetails, setTrainerDetails] = useState<TrainerDetails>({playerName: "", teamName: "", pokemonType: ""})
   const [activeStep, setActiveStep] = useState<number>(0)
+
   // trainer details are complete if playerName, teamName and pokemonType are set
   const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== "" && trainerDetails.pokemonType !== "" 
   /* 
@@ -41,28 +43,21 @@ function App() {
     inserted in the App component to avoid re-fetching on every render 
     of TeamSelectionComponent 
   */
-  const [pokemonTypes, setPokemonTypes] = useState<PokemonType[]>([])
+  const [pokemonTypes, setPokemonTypes] = useState<TypeResult[]>([])
 
   const [selectedPokemon, setSelectedPokemon] = useState<any[]>([])
 
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);
 
-  // fetching pokemon types on App component mount
+  // fetching pokemon types on App component mount 
   useEffect(() => {
-    axios.get(`${API_BASE_URL}/type`)
-    .then(res => setPokemonTypes(res.data.results))
+    axios.get<PokemonTypeAPIResponse>(`${API_BASE_URL}/type`)
+    .then(res => res.data)
+    .then((data) => {setPokemonTypes(data.results)})
   }, []);
 
-  // debug stuff
-  useEffect(() => {
-
-    if (DEBUG) {
-      console.log("TRAINER DETAILS IN APP", trainerDetails)
-    }
-
-  }, [trainerDetails])
-
+  // team is selected if 7 pokemons are selected
   const isTeamSelected = selectedPokemon.length == 7
 
   // this function checks if a step forward is possible and updates the active step

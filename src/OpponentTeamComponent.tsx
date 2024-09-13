@@ -78,12 +78,9 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
                 {opponentTeam.map(pokemon => <OpponentPokemonCard  key = {pokemon.id} pokemon={pokemon} />)}
             </Grid>
 
-            <div style={{display: 'flex', flexDirection: 'row', gap: 10}}>
                 <Button variant="contained" onClick={() => newTeam()} >
                     Generate New Team
                 </Button>
-                <Button variant="contained" color="success" onClick={() => acceptTeam()}>Accept</Button>
-            </div>
         </div>
     )
 }
