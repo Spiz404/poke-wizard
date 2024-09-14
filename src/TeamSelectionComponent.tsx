@@ -41,6 +41,8 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
 
     // function that removes a pokemon from the selected list
     const removePokemon = (pokemonName: string) => {
+        const updatedList = selectedPokemonList.filter((pokemon) => pokemon.name !== pokemonName);
+        setSelectedPokemon(updatedList);
         setSelectedPokemonList(selectedPokemonList.filter((pokemon) => pokemon.name !== pokemonName))
     }
     
