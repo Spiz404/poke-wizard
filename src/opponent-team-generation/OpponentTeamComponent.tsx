@@ -13,11 +13,11 @@ interface OpponentTeamComponentProps {
     setOpponentTeam: React.Dispatch<React.SetStateAction<PokemonAPIResponse[]>>;
 }
 
-const OpponentTeamComponent = ({selectedPokemons, pokemonsList, opponentTeam, setOpponentTeam}: OpponentTeamComponentProps) => {
+const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamComponentProps) => {
 
     const [generations, setGenerations] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
-    //const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
+    const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
 
     const genereteOpponentTeam = async () => {
         
