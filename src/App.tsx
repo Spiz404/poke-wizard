@@ -41,10 +41,10 @@ function App() {
   // it is used to determine if is necessary to rearrange the pokemon selection list to show the modified favorite pokemon type first
   const [currentFavoritePokemonType, setCurrentFavoritePokemonType] = useState<string>("")
 
-  //const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
-
+  // list of all pokemons, used to display the pokemons in the team selection page  
   const [pokemonsResultList, setPokemonsResultList] = useState<Result[]>([])
 
+  // list of selected pokemons by user, in App component to avoid loosing selected pokemons on page change
   const [selectedPokemons, setSelectedPokemons] = useState<PokemonAPIResponse[]>([])
 
   const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([])

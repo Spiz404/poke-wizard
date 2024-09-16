@@ -22,12 +22,23 @@ interface TeamSelectionComponentProps {
     setCurrentFavoritePokemonType: (pokemonType: string) => void
 }
 
-const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelectedPokemons, pokemonsList, setPokemonsList, currentFavoritePokemonType, setCurrentFavoritePokemonType}: TeamSelectionComponentProps) => {
+const TeamSelectionComponent = (
+        {   favoritePokemonType, 
+            selectedPokemons, 
+            setSelectedPokemons, 
+            pokemonsList, 
+            setPokemonsList, 
+            currentFavoritePokemonType, 
+            setCurrentFavoritePokemonType
+        }: 
+            TeamSelectionComponentProps
+        ) => {
 
     const [isLoading, setIsLoading] = useState(true)
     const [selectedPokemonList, setSelectedPokemonList] = useState<PokemonAPIResponse[]>([])
-    const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
+    const [shownPokemon, setShownPokemon] = useState<PokemonAPIResponse | null>(null)
     const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
+
     // details of the pokemons in the current page
     const [pokemonPageDetailsList, setPokemonPageDetailsList] = useState<PokemonAPIResponse[]>([])
     const [page, setPage] = useState(1)
@@ -54,13 +65,13 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
     */
 
     const showPokemonDialog = (pokemon: PokemonAPIResponse) => {
-        setShowedPokemon(pokemon)
+        setShownPokemon(pokemon)
         setOpenPokemonDialog(true)
     }
 
     const closePokemonDialog = () => {
         setOpenPokemonDialog(false)
-        setShowedPokemon(null)
+        setShownPokemon(null)
     }
 
     // function that fetches details of pokemons in the current page 
@@ -142,7 +153,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
 
     return (
         <>
-            {openPokemonDialog && <PokemonDialogComponent  selectPokemon={selectPokemon} onClose={closePokemonDialog} pokemon={showedPokemon} open={openPokemonDialog}/>}
+            {openPokemonDialog && <PokemonDialogComponent  selectPokemon={selectPokemon} onClose={closePokemonDialog} pokemon={shownPokemon} open={openPokemonDialog}/>}
             <Grid container spacing = {2} className="selected-team-grid">
                 { selectedPokemonList.length == 0 && <p className="no-pokemon-selected">No pokemons selected, select your team!</p> }
                 { selectedPokemonList.map((e) => {
