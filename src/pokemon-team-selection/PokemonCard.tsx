@@ -1,4 +1,4 @@
-import {Card, CardContent, CardMedia, CardActionArea, Typography, Chip } from '@mui/material'
+import {Card, CardContent, CardMedia, CardActionArea, Chip } from '@mui/material'
 
 const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: {pokemon : any , selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
 

@@ -1,25 +1,18 @@
 import axios from 'axios'
 import { useState, useEffect } from 'react'
 import Grid from '@mui/material/Grid';
+import Pagination from '@mui/material/Pagination';
 import PokemonCard from './PokemonCard'
 import CircularIndeterminate from '../CircularIndeterminate'
 import SelectedPokemonCard from './SelectedPokemonCard'
 import PokemonDialogComponent from './PokemonComponent'
 import { PokemonAPIResponse, PokemonListAPIResponse } from '../types/pokemonAPI'
-import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
 /*
-    a total of 100 pokemon will be fetched
-    40 pokemon will have the favoritePokemonType
-    60 pokemon will have a random type
+    currentFavoritePokemonType is used to check if the favorite pokemon type has changed.
 */
-
-interface Pokemon {
-    name: string
-    url: string
-}
 
 interface TeamSelectionComponentProps {
     favoritePokemonType: string,
@@ -38,6 +31,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
     const [selectedPokemonList, setSelectedPokemonList] = useState<PokemonAPIResponse[]>([])
     const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
     const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
+    const [page, setPage] = useState(0)
 
     const selectPokemon = (pokemon: PokemonAPIResponse) => {
 
@@ -77,7 +71,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
         const fetchData = async () => {
             try {
                 console.log("fetching pokemons");
-                const pokemonsRequest = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=1302`)
+                const pokemonsRequest = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=300`)
                 const pokemons = pokemonsRequest.data.results;
                 // fetching details for all selected pokemons
                 const pokemonsDetails : PokemonAPIResponse[] = await Promise.all(
@@ -135,6 +129,9 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                         )
                     })}
             </Grid>
+            <div style = {{display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
+                <Pagination count={Math.floor(1302 / 20)} page={page} onChange={(e, page) => setPage(page)} />
+            </div>
         </> 
     );
 }

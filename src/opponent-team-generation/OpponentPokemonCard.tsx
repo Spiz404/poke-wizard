@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, Typography, Chip } from "@mui/material";
+import { Card, CardContent, CardMedia, Chip } from "@mui/material";
 
 const OpponentPokemonCard = ({pokemon  } : {pokemon : any}) => {
         return (

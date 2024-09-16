@@ -9,15 +9,13 @@ import { PokemonSpecieAPIResponse } from "../types/pokemonSpeciesAPI";
 interface OpponentTeamComponentProps {
     selectedPokemons: PokemonAPIResponse[];
     pokemonsList: PokemonAPIResponse[];
-    opponentTeam: PokemonAPIResponse[];
-    setOpponentTeam: React.Dispatch<React.SetStateAction<PokemonAPIResponse[]>>;
 }
 
-const OpponentTeamComponent = ({selectedPokemons, pokemonsList, opponentTeam, setOpponentTeam}: OpponentTeamComponentProps) => {
+const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamComponentProps) => {
 
     const [generations, setGenerations] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
-    //const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
+    const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
 
     const genereteOpponentTeam = async () => {
         
@@ -55,7 +53,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList, opponentTeam, se
             setLoading(false);
         }
 
-        if (opponentTeam.length == 0) fetchPokemonsGenerationsAndGenerateTeam();
+        fetchPokemonsGenerationsAndGenerateTeam();
         
     }, [])
 
@@ -68,6 +66,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList, opponentTeam, se
     if (loading) {
         return <CircularIndeterminate />
     }
+
     return (
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 40}}>
             <h1>Opponent Team</h1>
