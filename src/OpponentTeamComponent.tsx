@@ -10,11 +10,12 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
 
     const [generations, setGenerations] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
-    const [opponentTeam, setOpponentTeam] = useState<any[]>([]);
+    const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
 
     const genereteOpponentTeam = async () => {
-
-        const opponentTeam : Array<any> = [];
+        
+        console.log("generating opponent team");
+        const opponentTeam : Array<PokemonAPIResponse> = [];
 
         while (opponentTeam.length < 4) {
 
@@ -30,7 +31,7 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
                     opponentTeam.push(pokemon.data);
                 }
             } catch (error) {
-                console.error(error);
+                //console.error(error);
             }
         }
 
@@ -40,7 +41,7 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
     useEffect(() => {
 
         // getting user's pokemons generations
-        const fetchPokemonsGenerations = async () => {
+        const fetchPokemonsGenerationsAndGenerateTeam = async () => {
 
             const gens = new Set();
             for (let pokemon of selectedPokemons) {
@@ -49,28 +50,23 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
                 gens.add(species_data.generation.name);
             }
             
-            return gens;
+            setGenerations(Array.from(gens) as string[]);
+            const team = await genereteOpponentTeam();
+            setOpponentTeam(team);
+            setLoading(false);
         }
 
-        fetchPokemonsGenerations().then(gens => setGenerations(Array.from(gens) as string[]));
+        //fetchPokemonsGenerations().then(gens => setGenerations(Array.from(gens) as string[]));
         
-        genereteOpponentTeam().then(team => {setOpponentTeam(team); setLoading(false)});
+        //genereteOpponentTeam().then(team => {setOpponentTeam(team); setLoading(false)});
 
+        fetchPokemonsGenerationsAndGenerateTeam();
     }, [])
 
 
     const newTeam = () => {
         setLoading(true);
         genereteOpponentTeam().then(team => {setOpponentTeam(team); setLoading(false)});
-    }
-
-    const acceptTeam = async () => {
-        
-        setLoading(true);
-
-        await setTimeout(() => {
-            setLoading(false);
-        }, 3000);
     }
 
     if (loading) {

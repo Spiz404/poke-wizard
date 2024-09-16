@@ -15,14 +15,15 @@ const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
     40 pokemon will have the favoritePokemonType
     60 pokemon will have a random type
 */
+
+interface Pokemon {
+    name: string
+    url: string
+}
+
 const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favoritePokemonType: string, setSelectedPokemon: (pokemon: PokemonAPIResponse[]) => void}) => {
 
-    interface Pokemon {
-        name: string
-        url: string
-    }
     const [isLoading, setIsLoading] = useState(true)
-    const [pokemonList, setPokemonList] = useState<Pokemon[]>([])
     const [pokemonDetailsList, setPokemonDetailsList] = useState<PokemonAPIResponse[]>([])
     const [selectedPokemonList, setSelectedPokemonList] = useState<PokemonAPIResponse[]>([])
     const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
@@ -89,7 +90,6 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
                 );
 
                 setPokemonDetailsList(pokemonsDetails)
-                setPokemonList([...favPokemons, ...filteredPokemons])
 
             } catch (error) {
                 console.error(error)
@@ -99,8 +99,10 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
         }
 
         setSelectedPokemon([])
+
         fetchData()
         .catch(error => console.error(error))
+
     }, [])
     
     // loading indicator while fetching data
