@@ -74,10 +74,11 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
     }
 
     // function that fetches details of pokemons in the current page 
-    const fetchPokemonsPage = async (page: number) => {
+    const fetchPokemonsPage = async (page: number, pokemons: Result[]) => {
 
-        const pokemonsToFetch = pokemons.slice(page * 20, (page + 1) * 20)
-
+        const pokemonsToFetch = pokemons.slice((page - 1) * 20, page  * 20)
+        console.log("pokemons", pokemons);
+        console.log("pokemons to fetch", pokemonsToFetch)
         const pokemonsDetails : PokemonAPIResponse[] = await Promise.all(
             pokemonsToFetch.map(async (pokemon) => {
                 const pokemonDetails = await axios.get<PokemonAPIResponse>(pokemon.url)
@@ -90,7 +91,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
 
     const updatePage = (page : number) => {
         setPage(page);
-        fetchPokemonsPage(page);
+        fetchPokemonsPage(page, pokemons);
     }
 
     useEffect(() => {
@@ -117,7 +118,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                 setPokemons(finalPokemonsList)
 
                 // fetching details for pokemons in page 0 (first page when component is mounted)
-                fetchPokemonsPage(0)
+                fetchPokemonsPage(1, finalPokemonsList)
 
             } catch (error) {
                 console.error(error)
