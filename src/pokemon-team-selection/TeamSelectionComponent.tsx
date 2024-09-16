@@ -77,7 +77,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
         const fetchData = async () => {
             try {
                 console.log("fetching pokemons");
-                const pokemonsRequest = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=1302`)
+                const pokemonsRequest = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=500`)
                 const pokemons = pokemonsRequest.data.results;
                 // fetching details for all selected pokemons
                 const pokemonsDetails : PokemonAPIResponse[] = await Promise.all(

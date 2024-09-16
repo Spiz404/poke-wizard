@@ -39,7 +39,7 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: {pokemon : an
                         <CardMedia
                             component="img"
                             height="140"
-                            image={pokemon.sprites.front_default}
+                            image={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.other.home.front_default}
                             alt={pokemon.name}
                         />
                         <CardContent  className='pokemon-card-content' sx = {{alignItems: 'center'}}>
