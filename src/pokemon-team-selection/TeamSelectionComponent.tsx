@@ -8,7 +8,7 @@ import SelectedPokemonCard from './SelectedPokemonCard'
 import PokemonDialogComponent from './PokemonComponent'
 import { PokemonAPIResponse, PokemonListAPIResponse } from '../types/pokemonAPI'
 import { Result } from '../types/pokemonAPI'
-import { PokemonTypeAPIResponse, Pokemon, Generation } from '../types/pokemonTypeAPI'
+import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
@@ -157,7 +157,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                     {localPokemonsList.map((e) => {
                         return (
                             <Grid item key = {e.name}>
-                                    <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} selectPokemon={selectPokemon} key={e.name} pokemon={e}></PokemonCard>
+                                    <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} key={e.name} pokemon={e}></PokemonCard>
                             </Grid>
                         )
                     })}

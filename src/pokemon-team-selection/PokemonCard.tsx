@@ -1,6 +1,13 @@
-import {Card, CardContent, CardMedia, CardActionArea, Typography, Chip } from '@mui/material'
+import {Card, CardContent, CardMedia, CardActionArea, Chip } from '@mui/material'
+import { PokemonAPIResponse } from '../types/pokemonAPI'
 
-const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: {pokemon : any , selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
+interface PokemonCardProps {
+    pokemon : PokemonAPIResponse
+    selectedPokemonList: PokemonAPIResponse[]
+    showPokemon: (pokemon: PokemonAPIResponse) => void
+}
+
+const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: PokemonCardProps) => {
 
     const selected = selectedPokemonList.filter((p) => p.name === pokemon.name).length > 0
 
@@ -39,7 +46,7 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: {pokemon : an
                         <CardMedia
                             component="img"
                             height="140"
-                            image={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.other.home.front_default}
+                            image={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.other?.home.front_default}
                             alt={pokemon.name}
                         />
                         <CardContent  className='pokemon-card-content' sx = {{alignItems: 'center'}}>

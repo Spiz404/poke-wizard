@@ -38,7 +38,7 @@ function App() {
 
   const [currentFavoritePokemonType, setCurrentFavoritePokemonType] = useState<string>("")
 
-  const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
+  //const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
 
   const [pokemonsResultList, setPokemonsResultList] = useState<Result[]>([])
 
