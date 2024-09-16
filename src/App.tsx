@@ -76,8 +76,7 @@ function App() {
       return 
     }
 
-    // can switch from step 0 or 1 to step 2 ONLY if trainerDetails are set and pokemon team is selected
-    if (step > activeStep && activeStep === 1 && (!isTrainerDetailsComplete || !isTeamSelected)) {
+    if (step == 2 && activeStep >= 0  && !isTeamSelected) {
       setErrorMessage("Please set your pokemon team before proceeding")
       setError(true)
       return
