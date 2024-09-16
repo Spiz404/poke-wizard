@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import { Button, Grid } from '@mui/material';
-import CircularIndeterminate from "./CircularIndeterminate";
+import CircularIndeterminate from "../CircularIndeterminate";
 import axios from "axios";
 import OpponentPokemonCard from "./OpponentPokemonCard";
-import { PokemonAPIResponse } from "./types/pokemonAPI";
-import { PokemonSpecieAPIResponse } from "./types/pokemonSpeciesAPI";
+import { PokemonAPIResponse } from "../types/pokemonAPI";
+import { PokemonSpecieAPIResponse } from "../types/pokemonSpeciesAPI";
 
 const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) => {
 
@@ -55,10 +55,6 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
             setOpponentTeam(team);
             setLoading(false);
         }
-
-        //fetchPokemonsGenerations().then(gens => setGenerations(Array.from(gens) as string[]));
-        
-        //genereteOpponentTeam().then(team => {setOpponentTeam(team); setLoading(false)});
 
         fetchPokemonsGenerationsAndGenerateTeam();
     }, [])

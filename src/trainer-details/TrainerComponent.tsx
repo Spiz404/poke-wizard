@@ -1,7 +1,7 @@
 import {TextField, Autocomplete } from "@mui/material"
 import { useState, useEffect } from "react"
-import { TypeResult } from "./types/pokemonTypeAPI"
-import { TrainerDetails } from "./types/appTypes"
+import { TypeResult } from "../types/pokemonTypeAPI"
+import { TrainerDetails } from "../types/appTypes"
 
 const TrainerComponent = ({setTrainerDetails, trainerDetails, listPokemonTypes}: {setTrainerDetails: (trainerDetails: TrainerDetails) => void, trainerDetails: TrainerDetails, listPokemonTypes: TypeResult[]}) => {
     

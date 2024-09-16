@@ -2,11 +2,11 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 import Grid from '@mui/material/Grid';
 import PokemonCard from './PokemonCard'
-import CircularIndeterminate from './CircularIndeterminate'
+import CircularIndeterminate from '../CircularIndeterminate'
 import SelectedPokemonCard from './SelectedPokemonCard'
 import PokemonComponent from './PokemonComponent'
-import { PokemonAPIResponse, PokemonListAPIResponse } from './types/pokemonAPI'
-import { PokemonTypeAPIResponse } from './types/pokemonTypeAPI'
+import { PokemonAPIResponse, PokemonListAPIResponse } from '../types/pokemonAPI'
+import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 

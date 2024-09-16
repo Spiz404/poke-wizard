@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react'
 import Stepper from "@mui/material/Stepper"
 import Step from "@mui/material/Step"
 import StepLabel from "@mui/material/StepLabel"
-import TrainerComponent from './TrainerComponent'
-import TeamSelectionComponent from './TeamSelectionComponent'
-import OpponentTeamComponent from './OpponentTeamComponent'
+import TrainerComponent from './trainer-details/TrainerComponent'
+import TeamSelectionComponent from './pokemon-team-selection/TeamSelectionComponent'
+import OpponentTeamComponent from './opponent-team-generation/OpponentTeamComponent'
 import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
