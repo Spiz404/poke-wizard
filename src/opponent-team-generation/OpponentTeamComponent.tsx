@@ -23,6 +23,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
         
         const opponentTeam : Array<PokemonAPIResponse> = [];
         
+ 
         while (opponentTeam.length < 4) {
 
             const randomPokemon = pokemonsList[Math.floor(Math.random() * pokemonsList.length)];
