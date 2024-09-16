@@ -23,9 +23,9 @@ const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 interface TeamSelectionComponentProps {
     favoritePokemonType: string,
     setSelectedPokemons: (pokemon: PokemonAPIResponse[]) => void,
-    pokemonsList: PokemonAPIResponse[],
+    pokemonsList: Result[],
     selectedPokemons: PokemonAPIResponse[],
-    setPokemonsList: (pokemon: PokemonAPIResponse[]) => void,
+    setPokemonsList: (pokemon: Result[]) => void,
     currentFavoritePokemonType: string,
     setCurrentFavoritePokemonType: (pokemonType: string) => void
 }
@@ -116,7 +116,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                 const finalPokemonsList = [...favPokemons, ...nonFavPokemons]
 
                 setPokemons(finalPokemonsList)
-
+                setPokemonsList(finalPokemonsList)
                 // fetching details for pokemons in page 0 (first page when component is mounted)
                 fetchPokemonsPage(1, finalPokemonsList)
 

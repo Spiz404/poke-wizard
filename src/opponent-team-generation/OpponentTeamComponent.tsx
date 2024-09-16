@@ -5,10 +5,11 @@ import axios from "axios";
 import OpponentPokemonCard from "./OpponentPokemonCard";
 import { PokemonAPIResponse } from "../types/pokemonAPI";
 import { PokemonSpecieAPIResponse } from "../types/pokemonSpeciesAPI";
+import { Result } from "../types/pokemonAPI";
 
 interface OpponentTeamComponentProps {
     selectedPokemons: PokemonAPIResponse[];
-    pokemonsList: PokemonAPIResponse[];
+    pokemonsList: Result[];
     opponentTeam: PokemonAPIResponse[];
     setOpponentTeam: React.Dispatch<React.SetStateAction<PokemonAPIResponse[]>>;
 }
@@ -22,16 +23,16 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
     const genereteOpponentTeam = async () => {
         
         const opponentTeam : Array<PokemonAPIResponse> = [];
-        
- 
+
         while (opponentTeam.length < 4) {
 
             const randomPokemon = pokemonsList[Math.floor(Math.random() * pokemonsList.length)];
-
-            const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(randomPokemon.species.url);
+            const pokemonDetails = await axios.get<PokemonAPIResponse>(randomPokemon.url);
+            const data = pokemonDetails.data.species.url;
+            const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(data);
 
             if (!generations.includes(pokemonSpecie.data.generation.name)) {
-                opponentTeam.push(randomPokemon);
+                opponentTeam.push(pokemonDetails.data);
             }
         }
 

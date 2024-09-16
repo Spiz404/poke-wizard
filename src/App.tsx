@@ -12,6 +12,7 @@ import { Snackbar, Alert, Button } from '@mui/material'
 import { TypeResult, PokemonTypeListAPIResponse } from './types/pokemonTypeAPI'
 import { TrainerDetails } from './types/appTypes'
 import { PokemonAPIResponse } from './types/pokemonAPI'
+import { Result } from './types/pokemonAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
@@ -38,6 +39,8 @@ function App() {
   const [currentFavoritePokemonType, setCurrentFavoritePokemonType] = useState<string>("")
 
   const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
+
+  const [pokemonsResultList, setPokemonsResultList] = useState<Result[]>([])
 
   const [selectedPokemons, setSelectedPokemons] = useState<PokemonAPIResponse[]>([])
 
@@ -102,11 +105,11 @@ function App() {
       </div>}
 
       {activeStep === 1 && <div>
-        <TeamSelectionComponent  currentFavoritePokemonType={currentFavoritePokemonType} setCurrentFavoritePokemonType={setCurrentFavoritePokemonType} selectedPokemons={selectedPokemons} pokemonsList={pokemonsList} setPokemonsList={setPokemonsList} favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemons={setSelectedPokemons} />
+        <TeamSelectionComponent  currentFavoritePokemonType={currentFavoritePokemonType} setCurrentFavoritePokemonType={setCurrentFavoritePokemonType} selectedPokemons={selectedPokemons} pokemonsList={pokemonsResultList} setPokemonsList={setPokemonsResultList} favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemons={setSelectedPokemons} />
       </div>}
 
       {activeStep === 2 && <div>
-        <OpponentTeamComponent opponentTeam={opponentTeam}  setOpponentTeam={setOpponentTeam} pokemonsList={pokemonsList} selectedPokemons={selectedPokemons} />
+        <OpponentTeamComponent opponentTeam={opponentTeam}  setOpponentTeam={setOpponentTeam} pokemonsList={pokemonsResultList} selectedPokemons={selectedPokemons} />
       </div>}
 
       {activeStep === 3 && <div>
