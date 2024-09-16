@@ -1,4 +1,4 @@
-import { Card, CardContent, CardMedia, CardActionArea, Typography } from '@mui/material'
+import { Card, CardContent, CardMedia, CardActionArea } from '@mui/material'
 
 const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (pokemonName: string) => void}) => {
 
@@ -11,10 +11,10 @@ const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (po
                 image={pokemon.sprites.front_default}
                 alt={pokemon.name}
             />
-            <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
-                <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center', color: 'black'}}>
+            <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
+                <p style={{color: 'black', fontWeight: 'bold', textAlign: 'center'}}>
                     {pokemon.name}
-                </Typography>
+                </p>
 
             </CardContent>
             </CardActionArea>
