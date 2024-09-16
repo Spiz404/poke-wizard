@@ -87,10 +87,11 @@ function App() {
         ))}
       </Stepper>
 
-        <div style = {{display: 'flex', justifyContent: 'center', flexDirection: 'row', width: '60%', gap: '10px'}}>
-          <Button variant = "contained" onClick={() => switchStep(activeStep - 1)}> back </Button>
-          <Button variant = "contained" onClick={() => switchStep(activeStep + 1)}> next </Button>
+        <div style={{display: 'flex', flexDirection: 'row', width: '100%', justifyContent: 'space-between'}}>
+          <Button variant="contained" onClick={() => switchStep(activeStep - 1)}>back</Button>
+          <Button variant="contained" onClick={() => switchStep(activeStep + 1)}>next</Button>
         </div>
+
       {activeStep === 0 && <div>
         <TrainerComponent setTrainerDetails={setTrainerDetails} trainerDetails={trainerDetails} listPokemonTypes={pokemonTypes}/>
       </div>}
