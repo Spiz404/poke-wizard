@@ -23,7 +23,7 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
 
             try {
 
-                const pokemon = await axios.get<PokemonAPIResponse>(`https://pokeapi.co/api/v2/pokemon/${randomId}`);
+                const pokemon = await axios.get<PokemonAPIResponse>(`${import.meta.env.VITE_BASE_API_URL}/pokemon/${randomId}`);
                 
                 const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(pokemon.data.species.url);
 
