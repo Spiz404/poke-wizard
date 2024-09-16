@@ -12,14 +12,6 @@ import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
-/*
-    a total of 100 pokemon will be fetched
-    40 pokemon will have the favoritePokemonType
-    60 pokemon will have a random type
-*/
-
-
-
 interface TeamSelectionComponentProps {
     favoritePokemonType: string,
     setSelectedPokemons: (pokemon: PokemonAPIResponse[]) => void,
@@ -37,7 +29,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
     const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
     const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
     const [pokemons, setPokemons] = useState<Result[]>([])
-    const [localPokemonsList, setLocalPokemonsList] = useState<PokemonAPIResponse[]>([])
+    const [pokemonPageDetailsList, setPokemonPageDetailsList] = useState<PokemonAPIResponse[]>([])
     const [page, setPage] = useState(1)
 
     const selectPokemon = (pokemon: PokemonAPIResponse) => {
@@ -77,8 +69,6 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
     const fetchPokemonsPage = async (page: number, pokemons: Result[]) => {
 
         const pokemonsToFetch = pokemons.slice((page - 1) * 20, page  * 20)
-        console.log("pokemons", pokemons);
-        console.log("pokemons to fetch", pokemonsToFetch)
         const pokemonsDetails : PokemonAPIResponse[] = await Promise.all(
             pokemonsToFetch.map(async (pokemon) => {
                 const pokemonDetails = await axios.get<PokemonAPIResponse>(pokemon.url)
@@ -86,7 +76,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
             })
         );
 
-        setLocalPokemonsList(pokemonsDetails)
+        setPokemonPageDetailsList(pokemonsDetails)
     }
 
     const updatePage = (page : number) => {
@@ -99,25 +89,39 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
         const fetchData = async () => {
             try {
 
-                // fetching all pokemons of the favorite type
-                const res = await axios.get<PokemonTypeAPIResponse>(`${API_BASE_URL}/type/${favoritePokemonType}`)
-                const data = res.data.pokemon
+                let finalPokemonsList: Result[] = []
+                
+                // pokemons list is refetched only if favorite type has changed or if it's the first time the component is mounted
+                if (pokemonsList.length == 0 || currentFavoritePokemonType != favoritePokemonType) {
+                   
+                    // fetching all pokemons of the favorite type
+                    const res = await axios.get<PokemonTypeAPIResponse>(`${API_BASE_URL}/type/${favoritePokemonType}`)
+                    const data = res.data.pokemon
 
-                const favPokemons = data.map(pokemon => pokemon.pokemon)
+                    const favPokemons = data.map(pokemon => pokemon.pokemon)
 
-                // fetching all pokemons WITHOUT DETAILS
-                const allData = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=1302`)
-                const allPokemons = allData.data.results;
+                    // fetching all pokemons WITHOUT DETAILS
+                    const allData = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=1302`)
+                    const allPokemons = allData.data.results;
 
-                // removing fav pokemons from all pokemons
-                const nonFavPokemons = allPokemons.filter(pokemon => !favPokemons.some(fav => fav.name === pokemon.name))
+                    // removing fav pokemons from all pokemons based on name (no need to fetch pokemon details)
+                    const nonFavPokemons = allPokemons.filter(pokemon => !favPokemons.some(fav => fav.name === pokemon.name))
 
-                // composing sorted final list
-                const finalPokemonsList = [...favPokemons, ...nonFavPokemons]
+                    // composing sorted final list
+                    finalPokemonsList = [...favPokemons, ...nonFavPokemons]
+                    
+                    // updating current favorite pokemon type
+                    setCurrentFavoritePokemonType(favoritePokemonType)
 
-                setPokemons(finalPokemonsList)
-                setPokemonsList(finalPokemonsList)
-                // fetching details for pokemons in page 0 (first page when component is mounted)
+                    setPokemons(finalPokemonsList)
+                    setPokemonsList(finalPokemonsList)
+                }
+
+                else {
+                    finalPokemonsList = pokemonsList
+                }
+
+                // fetching details for pokemons in page 1 (first page when component is mounted)
                 fetchPokemonsPage(1, finalPokemonsList)
 
             } catch (error) {
@@ -128,9 +132,8 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
         }
 
         setSelectedPokemonList(selectedPokemons)
-        console.log("selected pokemons", selectedPokemons)
-        if (pokemonsList.length == 0 || currentFavoritePokemonType != favoritePokemonType) fetchData().catch(error => console.error(error))
-        else setIsLoading(false)
+        
+        fetchData().catch(error => console.error(error))
 
         setCurrentFavoritePokemonType(favoritePokemonType)
     }, [])
@@ -154,7 +157,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                 })}
             </Grid>
             <Grid container spacing={2} className="grid">
-                    {localPokemonsList.map((e) => {
+                    {pokemonPageDetailsList.map((e) => {
                         return (
                             <Grid item key = {e.name}>
                                     <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} key={e.name} pokemon={e}></PokemonCard>
@@ -163,7 +166,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                     })}
             </Grid>
             <div style={{display: "flex", flexDirection : "row", justifyContent: "center"}}>
-                <Pagination count={Math.floor(pokemons.length / 20)} page={page} onChange={(_e, page) => updatePage(page)} />
+                <Pagination count={Math.floor(pokemonsList.length / 20)} page={page} onChange={(_e, page) => updatePage(page)} />
             </div>
         </>
     );

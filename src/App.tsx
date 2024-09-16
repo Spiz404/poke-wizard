@@ -36,6 +36,8 @@ function App() {
   */
   const [pokemonTypes, setPokemonTypes] = useState<TypeResult[]>([])
 
+  // currentFavoritePokemonTyped contains the current favorite pokemon type that is listed as first in the select team pokemon page.
+  // it is used to determine if is necessary to rearrange the pokemon selection list to show the modified favorite pokemon type first
   const [currentFavoritePokemonType, setCurrentFavoritePokemonType] = useState<string>("")
 
   //const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
