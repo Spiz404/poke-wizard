@@ -37,20 +37,23 @@ function App() {
   */
   const [pokemonTypes, setPokemonTypes] = useState<TypeResult[]>([])
 
-  const [selectedPokemon, setSelectedPokemon] = useState<PokemonAPIResponse[]>([])
+  const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
+
+  const [selectedPokemons, setSelectedPokemons] = useState<PokemonAPIResponse[]>([])
 
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);
 
   // fetching pokemon types on App component mount 
   useEffect(() => {
+    console.log("fetching pokemon types");
     axios.get<PokemonTypeListAPIResponse>(`${API_BASE_URL}/type`)
     .then(res => res.data)
     .then((data) => {setPokemonTypes(data.results)})
   }, []);
 
   // team is selected if 7 pokemons are selected
-  const isTeamSelected = selectedPokemon.length == 7
+  const isTeamSelected = selectedPokemons.length == 7
 
   // this function checks if a step forward is possible and updates the active step
   const switchStep = (step: number) => {
@@ -97,11 +100,11 @@ function App() {
       </div>}
 
       {activeStep === 1 && <div>
-        <TeamSelectionComponent favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemon={setSelectedPokemon} />
+        <TeamSelectionComponent  selectedPokemons={selectedPokemons} pokemonsList={pokemonsList} setPokemonsList={setPokemonsList} favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemons={setSelectedPokemons} />
       </div>}
 
       {activeStep === 2 && <div>
-        <OpponentTeamComponent selectedPokemons={selectedPokemon} />
+        <OpponentTeamComponent selectedPokemons={selectedPokemons} />
       </div>}
 
       {activeStep === 3 && <div>

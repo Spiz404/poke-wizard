@@ -21,10 +21,18 @@ interface Pokemon {
     url: string
 }
 
-const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favoritePokemonType: string, setSelectedPokemon: (pokemon: PokemonAPIResponse[]) => void}) => {
+interface TeamSelectionComponentProps {
+    favoritePokemonType: string,
+    setSelectedPokemons: (pokemon: PokemonAPIResponse[]) => void,
+    pokemonsList: PokemonAPIResponse[],
+    selectedPokemons: PokemonAPIResponse[],
+    setPokemonsList: (pokemon: PokemonAPIResponse[]) => void
+}
+
+const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelectedPokemons, pokemonsList, setPokemonsList}: TeamSelectionComponentProps) => {
 
     const [isLoading, setIsLoading] = useState(true)
-    const [pokemonDetailsList, setPokemonDetailsList] = useState<PokemonAPIResponse[]>([])
+    //const [pokemonDetailsList, setPokemonDetailsList] = useState<PokemonAPIResponse[]>([])
     const [selectedPokemonList, setSelectedPokemonList] = useState<PokemonAPIResponse[]>([])
     const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
     const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
@@ -34,7 +42,7 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
         if (selectedPokemonList.length < 7 && !selectedPokemonList.includes(pokemon)) {
             const updatedList = [...selectedPokemonList, pokemon]
             setSelectedPokemonList(updatedList)
-            setSelectedPokemon(updatedList)
+            setSelectedPokemons(updatedList)
         }
     }
 
@@ -43,7 +51,7 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
     // function that removes a pokemon from the selected list
     const removePokemon = (pokemonName: string) => {
         const updatedList = selectedPokemonList.filter((pokemon) => pokemon.name !== pokemonName);
-        setSelectedPokemon(updatedList);
+        setSelectedPokemons(updatedList);
         setSelectedPokemonList(selectedPokemonList.filter((pokemon) => pokemon.name !== pokemonName))
     }
     
@@ -63,24 +71,12 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
     }
 
     useEffect(() => {
+        console.log("use effect team selection");
         const fetchData = async () => {
             try {
-
-                // fetching favorite type pokemons
-                const data = await axios.get<PokemonTypeAPIResponse>(`${API_BASE_URL}/type/${favoritePokemonType}`)
-                const pokemonListWithSlot = data.data.pokemon.slice(0, 40)
-
-                const favPokemons = pokemonListWithSlot.map((e: {pokemon: Pokemon, slot: number}) => e.pokemon) 
-                const favPokemonsNames = favPokemons.map((e: Pokemon) => e.name)
-                
-                // fetching other pokemons
-                const otherPokemons = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=100`)
-                // filtering to avoid duplicates
-                let filteredPokemons = otherPokemons.data.results.filter((e: Pokemon) => !favPokemonsNames.includes(e.name))
-                filteredPokemons = filteredPokemons.slice(0, 60)
-
-                const pokemons = [...favPokemons, ...filteredPokemons]
-
+                console.log("fetching pokemons");
+                const pokemonsRequest = await axios.get<PokemonListAPIResponse>(`${API_BASE_URL}/pokemon?limit=1302`)
+                const pokemons = pokemonsRequest.data.results;
                 // fetching details for all selected pokemons
                 const pokemonsDetails : PokemonAPIResponse[] = await Promise.all(
                     pokemons.map(async (pokemon) => {
@@ -89,8 +85,8 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
                     })
                 );
 
-                setPokemonDetailsList(pokemonsDetails)
-
+                //setPokemonDetailsList(pokemonsDetails)
+                setPokemonsList(pokemonsDetails)
             } catch (error) {
                 console.error(error)
             } finally {
@@ -98,11 +94,10 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
             }
         }
 
-        setSelectedPokemon([])
-
-        fetchData()
-        .catch(error => console.error(error))
-
+        setSelectedPokemonList(selectedPokemons)
+        console.log("selected pokemons", selectedPokemons)
+        if (pokemonsList.length == 0) fetchData().catch(error => console.error(error))
+        else setIsLoading(false)
     }, [])
     
     // loading indicator while fetching data
@@ -124,7 +119,7 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
                 })}
             </Grid>
             <Grid container spacing={2} className="grid">
-                    {pokemonDetailsList.map((e) => {
+                    {pokemonsList.map((e) => {
                         return (
                             <Grid item key = {e.name}>
                                     <PokemonCard selectedPokemonList={selectedPokemonList} showPokemon = {() => showPokemonDialog(e)} selectPokemon={selectPokemon} key={e.name} pokemon={e}></PokemonCard>

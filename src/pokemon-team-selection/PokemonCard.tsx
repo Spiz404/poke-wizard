@@ -19,10 +19,8 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: {pokemon : an
                         image={pokemon.sprites.front_default}
                         alt={pokemon.name}
                     />
-                    <CardContent className='pokemon-card-content'>
-                        <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center', color: 'black'}}>
-                            {pokemon.name}
-                        </Typography>
+                    <CardContent className='pokemon-card-content' sx = {{alignItems: 'center'}}>
+                        <p style={{color: 'black', fontWeight: 'bold'}}>{pokemon.name}</p> 
                         <div className='pokemon-card-types'>
                             { pokemon.types.map((type: any) => {
                                 return <Chip key={type.type.name} label={type.type.name}></Chip>
