@@ -9,12 +9,12 @@ import OpponentTeamComponent from './opponent-team-generation/OpponentTeamCompon
 import SuccessPage from './SuccessPage'
 import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
-import { TypeResult, PokemonTypeAPIResponse, PokemonTypeListAPIResponse } from './types/pokemonTypeAPI'
+import { TypeResult, PokemonTypeListAPIResponse } from './types/pokemonTypeAPI'
 import { TrainerDetails } from './types/appTypes'
 import { PokemonAPIResponse } from './types/pokemonAPI'
 
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
-const DEBUG = false
+
 function App() {
 
  

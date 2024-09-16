@@ -1,12 +1,6 @@
-import {Card, CardContent, CardMedia, CardActionArea, Typography, Button, Chip } from '@mui/material'
-import { useState } from 'react'
+import {Card, CardContent, CardMedia, CardActionArea, Typography, Chip } from '@mui/material'
 
-interface Pokemon {
-    name: string
-    image: string 
-}
-
-const PokemonCard = ({pokemon, selectPokemon, selectedPokemonList, showPokemon}: {pokemon : any , selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
+const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: {pokemon : any , selectPokemon: (pokemon: any) => void, selectedPokemonList: any[], showPokemon: (pokemon: any) => void}) => {
 
     const selected = selectedPokemonList.filter((p) => p.name === pokemon.name).length > 0
 

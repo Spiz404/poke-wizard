@@ -31,7 +31,7 @@ const TrainerComponent = ({setTrainerDetails, trainerDetails, listPokemonTypes}:
                 options={listPokemonTypes.map(t => t.name)}
                 sx={{ width: 300 }}
                 value={pokemonType}
-                onChange={(e, value) => setPokemonType(value ?? "")}
+                onChange={(_e, value) => setPokemonType(value ?? "")}
                 renderInput={(params) => <TextField {...params} label="Favorite Pokemon type" />}
             />
         </div>

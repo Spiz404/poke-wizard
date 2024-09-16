@@ -1,10 +1,4 @@
-import {Card, CardContent, CardMedia, CardActionArea, Typography, Button } from '@mui/material'
-import { useState } from 'react'
-
-interface Pokemon {
-    name: string
-    image: string 
-}
+import { Card, CardContent, CardMedia, CardActionArea, Typography } from '@mui/material'
 
 const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (pokemonName: string) => void}) => {
 
