@@ -26,10 +26,12 @@ interface TeamSelectionComponentProps {
     setSelectedPokemons: (pokemon: PokemonAPIResponse[]) => void,
     pokemonsList: PokemonAPIResponse[],
     selectedPokemons: PokemonAPIResponse[],
-    setPokemonsList: (pokemon: PokemonAPIResponse[]) => void
+    setPokemonsList: (pokemon: PokemonAPIResponse[]) => void,
+    currentFavoritePokemonType: string,
+    setCurrentFavoritePokemonType: (pokemonType: string) => void
 }
 
-const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelectedPokemons, pokemonsList, setPokemonsList}: TeamSelectionComponentProps) => {
+const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelectedPokemons, pokemonsList, setPokemonsList, currentFavoritePokemonType, setCurrentFavoritePokemonType}: TeamSelectionComponentProps) => {
 
     const [isLoading, setIsLoading] = useState(true)
     //const [pokemonDetailsList, setPokemonDetailsList] = useState<PokemonAPIResponse[]>([])
@@ -100,8 +102,10 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
 
         setSelectedPokemonList(selectedPokemons)
         console.log("selected pokemons", selectedPokemons)
-        if (pokemonsList.length == 0) fetchData().catch(error => console.error(error))
+        if (pokemonsList.length == 0 || currentFavoritePokemonType != favoritePokemonType) fetchData().catch(error => console.error(error))
         else setIsLoading(false)
+
+        setCurrentFavoritePokemonType(favoritePokemonType)
     }, [])
     
     // loading indicator while fetching data

@@ -6,11 +6,18 @@ import OpponentPokemonCard from "./OpponentPokemonCard";
 import { PokemonAPIResponse } from "../types/pokemonAPI";
 import { PokemonSpecieAPIResponse } from "../types/pokemonSpeciesAPI";
 
-const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) => {
+interface OpponentTeamComponentProps {
+    selectedPokemons: PokemonAPIResponse[];
+    pokemonsList: PokemonAPIResponse[];
+    opponentTeam: PokemonAPIResponse[];
+    setOpponentTeam: React.Dispatch<React.SetStateAction<PokemonAPIResponse[]>>;
+}
+
+const OpponentTeamComponent = ({selectedPokemons, pokemonsList, opponentTeam, setOpponentTeam}: OpponentTeamComponentProps) => {
 
     const [generations, setGenerations] = useState<string[]>([]);
     const [loading, setLoading] = useState(true);
-    const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
+    //const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
 
     const genereteOpponentTeam = async () => {
         
@@ -18,19 +25,12 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
 
         while (opponentTeam.length < 4) {
 
-            const randomId = Math.floor(Math.random() * 1302) + 1;
+            const randomPokemon = pokemonsList[Math.floor(Math.random() * pokemonsList.length)];
 
-            try {
+            const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(randomPokemon.species.url);
 
-                const pokemon = await axios.get<PokemonAPIResponse>(`${import.meta.env.VITE_BASE_API_URL}/pokemon/${randomId}`);
-                
-                const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(pokemon.data.species.url);
-
-                if (!generations.includes(pokemonSpecie.data.generation.name)) {
-                    opponentTeam.push(pokemon.data);
-                }
-            } catch (error) {
-                //console.error(error);
+            if (!generations.includes(pokemonSpecie.data.generation.name)) {
+                opponentTeam.push(randomPokemon);
             }
         }
 
@@ -55,7 +55,8 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
             setLoading(false);
         }
 
-        fetchPokemonsGenerationsAndGenerateTeam();
+        if (opponentTeam.length == 0) fetchPokemonsGenerationsAndGenerateTeam();
+        
     }, [])
 
 

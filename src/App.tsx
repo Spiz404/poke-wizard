@@ -17,8 +17,6 @@ const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
 function App() {
 
- 
-
   const steps = [
     "Trainer details",
     "Pokemon team selection",
@@ -37,9 +35,13 @@ function App() {
   */
   const [pokemonTypes, setPokemonTypes] = useState<TypeResult[]>([])
 
+  const [currentFavoritePokemonType, setCurrentFavoritePokemonType] = useState<string>("")
+
   const [pokemonsList, setPokemonsList] = useState<PokemonAPIResponse[]>([])
 
   const [selectedPokemons, setSelectedPokemons] = useState<PokemonAPIResponse[]>([])
+
+  const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([])
 
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);
@@ -100,11 +102,11 @@ function App() {
       </div>}
 
       {activeStep === 1 && <div>
-        <TeamSelectionComponent  selectedPokemons={selectedPokemons} pokemonsList={pokemonsList} setPokemonsList={setPokemonsList} favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemons={setSelectedPokemons} />
+        <TeamSelectionComponent  currentFavoritePokemonType={currentFavoritePokemonType} setCurrentFavoritePokemonType={setCurrentFavoritePokemonType} selectedPokemons={selectedPokemons} pokemonsList={pokemonsList} setPokemonsList={setPokemonsList} favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemons={setSelectedPokemons} />
       </div>}
 
       {activeStep === 2 && <div>
-        <OpponentTeamComponent selectedPokemons={selectedPokemons} />
+        <OpponentTeamComponent opponentTeam={opponentTeam}  setOpponentTeam={setOpponentTeam} pokemonsList={pokemonsList} selectedPokemons={selectedPokemons} />
       </div>}
 
       {activeStep === 3 && <div>
