@@ -29,6 +29,7 @@ function App() {
 
   // trainer details are complete if playerName, teamName and pokemonType are set
   const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== "" && trainerDetails.pokemonType !== "" 
+  
   /* 
     list of all pokemon types, 
     inserted in the App component to avoid re-fetching on every render 
@@ -102,15 +103,29 @@ function App() {
         </div>
 
       {activeStep === 0 && <div>
-        <TrainerComponent setTrainerDetails={setTrainerDetails} trainerDetails={trainerDetails} listPokemonTypes={pokemonTypes}/>
+        <TrainerComponent 
+          setTrainerDetails={setTrainerDetails} 
+          trainerDetails={trainerDetails} 
+          listPokemonTypes={pokemonTypes}/>
       </div>}
 
       {activeStep === 1 && <div>
-        <TeamSelectionComponent  currentFavoritePokemonType={currentFavoritePokemonType} setCurrentFavoritePokemonType={setCurrentFavoritePokemonType} selectedPokemons={selectedPokemons} pokemonsList={pokemonsResultList} setPokemonsList={setPokemonsResultList} favoritePokemonType={trainerDetails.pokemonType} setSelectedPokemons={setSelectedPokemons} />
+        <TeamSelectionComponent  
+            currentFavoritePokemonType={currentFavoritePokemonType} 
+            setCurrentFavoritePokemonType={setCurrentFavoritePokemonType} 
+            selectedPokemons={selectedPokemons} 
+            pokemonsList={pokemonsResultList} 
+            setPokemonsList={setPokemonsResultList} 
+            favoritePokemonType={trainerDetails.pokemonType} 
+            setSelectedPokemons={setSelectedPokemons} />
       </div>}
 
       {activeStep === 2 && <div>
-        <OpponentTeamComponent opponentTeam={opponentTeam}  setOpponentTeam={setOpponentTeam} pokemonsList={pokemonsResultList} selectedPokemons={selectedPokemons} />
+        <OpponentTeamComponent 
+          opponentTeam={opponentTeam}  
+          setOpponentTeam={setOpponentTeam} 
+          pokemonsList={pokemonsResultList} 
+          selectedPokemons={selectedPokemons} />
       </div>}
 
       {activeStep === 3 && <div>

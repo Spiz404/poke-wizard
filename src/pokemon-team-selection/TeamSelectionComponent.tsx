@@ -13,12 +13,12 @@ import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'
 const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
 interface TeamSelectionComponentProps {
-    favoritePokemonType: string,
+    favoritePokemonType: string, // pokemon type selected by the user
     setSelectedPokemons: (pokemon: PokemonAPIResponse[]) => void,
     pokemonsList: Result[],
     selectedPokemons: PokemonAPIResponse[],
     setPokemonsList: (pokemon: Result[]) => void,
-    currentFavoritePokemonType: string,
+    currentFavoritePokemonType: string, // current favorite type that is listed as first in the pokemon list 
     setCurrentFavoritePokemonType: (pokemonType: string) => void
 }
 
@@ -28,7 +28,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
     const [selectedPokemonList, setSelectedPokemonList] = useState<PokemonAPIResponse[]>([])
     const [showedPokemon, setShowedPokemon] = useState<PokemonAPIResponse | null>(null)
     const [openPokemonDialog, setOpenPokemonDialog] = useState(false)
-    const [pokemons, setPokemons] = useState<Result[]>([])
+    // details of the pokemons in the current page
     const [pokemonPageDetailsList, setPokemonPageDetailsList] = useState<PokemonAPIResponse[]>([])
     const [page, setPage] = useState(1)
 
@@ -40,8 +40,6 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
             setSelectedPokemons(updatedList)
         }
     }
-
-    
 
     // function that removes a pokemon from the selected list
     const removePokemon = (pokemonName: string) => {
@@ -81,7 +79,7 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
 
     const updatePage = (page : number) => {
         setPage(page);
-        fetchPokemonsPage(page, pokemons);
+        fetchPokemonsPage(page, pokemonsList);
     }
 
     useEffect(() => {
@@ -113,7 +111,6 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                     // updating current favorite pokemon type
                     setCurrentFavoritePokemonType(favoritePokemonType)
 
-                    setPokemons(finalPokemonsList)
                     setPokemonsList(finalPokemonsList)
                 }
 

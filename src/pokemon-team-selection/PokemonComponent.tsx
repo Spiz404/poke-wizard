@@ -11,9 +11,9 @@ const PokemonDialogComponent = ({pokemon, open, onClose, selectPokemon}: {pokemo
                 
                 <DialogContent style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
                     <h1>{pokemon.name}</h1>
-                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}>
-                        <img src={pokemon && pokemon.sprites.front_default} alt={pokemon.name} />
-                        <img src={pokemon && pokemon.sprites.back_default} alt={pokemon.name} />
+                    <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px'}}>
+                        <img style={{width: '100px', height: '100px'}} src={pokemon && (pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.front_female || pokemon.sprites.other?.home.front_default || "../../public/question-mark.png")} alt={pokemon.name} />
+                        <img style={{width: '100px', height: '100px'}} src={pokemon && (pokemon.sprites.back_default || pokemon.sprites.back_shiny || pokemon.sprites.back_female || "../../public/question-mark.png")} alt={pokemon.name} />
                     </div>
                     <h2>Types</h2>
                     <div className="types-container">

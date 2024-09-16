@@ -23,7 +23,7 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: PokemonCardPr
                     <CardMedia
                         component="img"
                         height="140"
-                        image={pokemon.sprites.front_default}
+                        image={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.other?.home.front_default || '../../public/question-mark.png'}
                         alt={pokemon.name}
                     />
                     <CardContent className='pokemon-card-content' sx = {{alignItems: 'center'}}>
@@ -46,7 +46,7 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: PokemonCardPr
                         <CardMedia
                             component="img"
                             height="140"
-                            image={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.other?.home.front_default}
+                            image={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.other?.home.front_default || '../../public/question-mark.png'}
                             alt={pokemon.name}
                         />
                         <CardContent  className='pokemon-card-content' sx = {{alignItems: 'center'}}>
