@@ -9,9 +9,7 @@ const OpponentPokemonCard = ({pokemon  } : {pokemon : any}) => {
                         alt={pokemon.name}
                         src={pokemon.sprites.front_default} />
                     <CardContent className='pokemon-card-content'>
-                        <Typography gutterBottom variant="h5" component="div" style={{textAlign: 'center', color: 'black'}}>
-                            {pokemon.name}
-                        </Typography>
+                        <p style={{color: 'black', fontWeight: 'bold', textAlign: 'center'}}>{pokemon.name}</p>
                         <div className='pokemon-card-types'>
                             { pokemon.types.map((type: any) => {
                                 return <Chip key={type.type.name} label={type.type.name}></Chip>

@@ -84,9 +84,13 @@ const TeamSelectionComponent = ({favoritePokemonType, selectedPokemons, setSelec
                         return pokemonDetails.data
                     })
                 );
+                console.log("sorting");
+                
+                const favTypePokemons = pokemonsDetails.filter(pokemon => pokemon.types.some(t => t.type.name === favoritePokemonType))
+                const nonFavTypePokemons = pokemonsDetails.filter(pokemon => !pokemon.types.some(t => t.type.name === favoritePokemonType))
 
-                //setPokemonDetailsList(pokemonsDetails)
-                setPokemonsList(pokemonsDetails)
+                setPokemonsList([...favTypePokemons, ...nonFavTypePokemons])
+
             } catch (error) {
                 console.error(error)
             } finally {
