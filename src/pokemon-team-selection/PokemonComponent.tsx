@@ -2,7 +2,7 @@ import { Dialog , DialogContent, Button, Chip } from '@mui/material'
 import { PokemonAPIResponse } from '../types/pokemonAPI'
 import {Type, Species, Move } from '../types/pokemonAPI'
 
-const PokemonComponent = ({pokemon, open, onClose, selectPokemon}: {pokemon: PokemonAPIResponse | null, open: boolean, onClose: () => void, selectPokemon: (pokemon: any) => void}) => {
+const PokemonDialogComponent = ({pokemon, open, onClose, selectPokemon}: {pokemon: PokemonAPIResponse | null, open: boolean, onClose: () => void, selectPokemon: (pokemon: any) => void}) => {
 
     if (pokemon) {
 
@@ -43,4 +43,4 @@ const PokemonComponent = ({pokemon, open, onClose, selectPokemon}: {pokemon: Pok
     }
 }
 
-export default PokemonComponent;
+export default PokemonDialogComponent;

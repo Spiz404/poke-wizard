@@ -14,7 +14,6 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
 
     const genereteOpponentTeam = async () => {
         
-        console.log("generating opponent team");
         const opponentTeam : Array<PokemonAPIResponse> = [];
 
         while (opponentTeam.length < 4) {
@@ -72,7 +71,7 @@ const OpponentTeamComponent = ({selectedPokemons}: {selectedPokemons: any[]}) =>
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 40}}>
             <h1>Opponent Team</h1>
             <Grid container spacing={2} sx={{display: 'flex', justifyContent: 'center', gap: 10}}>
-                {opponentTeam.map(pokemon => <OpponentPokemonCard  key = {pokemon.id} pokemon={pokemon} />)}
+                {opponentTeam.map(pokemon => <OpponentPokemonCard key = {pokemon.name} pokemon={pokemon} />)}
             </Grid>
 
                 <Button variant="contained" onClick={() => newTeam()} >

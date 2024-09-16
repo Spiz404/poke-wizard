@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import PokemonCard from './PokemonCard'
 import CircularIndeterminate from '../CircularIndeterminate'
 import SelectedPokemonCard from './SelectedPokemonCard'
-import PokemonComponent from './PokemonComponent'
+import PokemonDialogComponent from './PokemonComponent'
 import { PokemonAPIResponse, PokemonListAPIResponse } from '../types/pokemonAPI'
 import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'
 
@@ -112,7 +112,7 @@ const TeamSelectionComponent = ({favoritePokemonType, setSelectedPokemon}: {favo
 
     return (
         <>
-            {openPokemonDialog && <PokemonComponent  selectPokemon={selectPokemon} onClose={closePokemonDialog} pokemon={showedPokemon} open={openPokemonDialog}></PokemonComponent>}
+            {openPokemonDialog && <PokemonDialogComponent  selectPokemon={selectPokemon} onClose={closePokemonDialog} pokemon={showedPokemon} open={openPokemonDialog}/>}
             <Grid container spacing = {2} className="selected-team-grid">
                 { selectedPokemonList.length == 0 && <p className="no-pokemon-selected">No pokemons selected, select your team!</p> }
                 { selectedPokemonList.map((e) => {
