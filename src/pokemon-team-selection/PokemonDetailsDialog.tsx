@@ -7,7 +7,7 @@ interface PokemonDialogComponentProps {
     pokemon: PokemonAPIResponse | null
     open: boolean
     onClose: () => void
-    selectPokemon: (pokemon: any) => void
+    selectPokemon: (pokemon: PokemonAPIResponse) => void 
 }
 
 const PokemonDialogComponent = ({pokemon, open, onClose, selectPokemon}: PokemonDialogComponentProps) => {

@@ -5,7 +5,7 @@ import Pagination from '@mui/material/Pagination';
 import PokemonCard from './PokemonCard'
 import CircularIndeterminate from '../CircularIndeterminate'
 import SelectedPokemonCard from './SelectedPokemonCard'
-import PokemonDialogComponent from './PokemonComponent'
+import PokemonDialogComponent from './PokemonDetailsDialog'
 import { PokemonAPIResponse, PokemonListAPIResponse } from '../types/pokemonAPI'
 import { Result } from '../types/pokemonAPI'
 import { PokemonTypeAPIResponse } from '../types/pokemonTypeAPI'

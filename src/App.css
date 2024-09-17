@@ -95,6 +95,13 @@
     justify-content: space-between;
 }
 
+.pokemon-card-content p {
+    font-size: 12px;
+    color: black;
+    align-self: center;
+    text-align: center;
+}
+
 .pokemon-card-types {
     display: flex;
     flex-direction: row;

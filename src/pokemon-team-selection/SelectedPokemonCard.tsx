@@ -1,14 +1,20 @@
 import { Card, CardContent, CardMedia, CardActionArea } from '@mui/material'
 import { getPokemonImage } from '../utils/getPokemonImage'
+import { PokemonAPIResponse } from '../types/pokemonAPI'
 
-const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (pokemonName: string) => void}) => {
+interface SelectedPokemonCardProps {
+    pokemon: PokemonAPIResponse
+    removePokemon: (pokemonName: string) => void // function to remove a pokemon from the selected team
+}
+
+const SelectedPokemonCard = ({pokemon, removePokemon}: SelectedPokemonCardProps) => {
 
     return (
-        <Card className="selected-pokemon-card" sx={{ width: 150 }} >
+        <Card className="selected-pokemon-card" sx={{ width: 150, height: 250}} >
             <CardActionArea onClick={() => removePokemon(pokemon.name)} sx={{color: 'red'}}>
             <CardMedia
                 component="img"
-                height="100"
+                height="170px"
                 image={getPokemonImage(pokemon)}
                 alt={pokemon.name}
             />
@@ -23,4 +29,4 @@ const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (po
     )
 }
 
-export default PokemonCard
+export default SelectedPokemonCard

@@ -10,6 +10,19 @@ interface PokemonCardProps {
 
 const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: PokemonCardProps) => {
 
+    const CommonCardContent = () => {
+        return (
+            <CardContent className='pokemon-card-content' sx = {{alignItems: 'center'}}>
+                <p style = {{fontWeight: 'bold'}}>{pokemon.name}</p> 
+                <div className='pokemon-card-types'>
+                    { pokemon.types.map((type: any) => {
+                        return <Chip key={type.type.name} label={type.type.name}></Chip>
+                    })}
+                </div>
+            </CardContent>
+        );
+    }
+
     const selected = selectedPokemonList.filter((p) => p.name === pokemon.name).length > 0
 
     const selectCurrentPokemon = () => {
@@ -27,14 +40,7 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: PokemonCardPr
                         image={getPokemonImage(pokemon)}
                         alt={pokemon.name}
                     />
-                    <CardContent className='pokemon-card-content' sx = {{alignItems: 'center'}}>
-                        <p style={{color: 'black', fontWeight: 'bold'}}>{pokemon.name}</p> 
-                        <div className='pokemon-card-types'>
-                            { pokemon.types.map((type: any) => {
-                                return <Chip key={type.type.name} label={type.type.name}></Chip>
-                            })}
-                        </div>
-                        </CardContent>
+                    <CommonCardContent />
                 </CardActionArea>
             </Card>
         )
@@ -42,24 +48,17 @@ const PokemonCard = ({pokemon , selectedPokemonList, showPokemon}: PokemonCardPr
     }
     else {
         return (
-                    <Card sx={{ width: 150, height:275, opacity: 0.5 }}>
+                <Card sx={{ width: 150, height:275, opacity: 0.5 }}>
 
-                        <CardMedia
-                            component="img"
-                            height="140"
-                            image={getPokemonImage(pokemon)}
-                            alt={pokemon.name}
-                        />
-                        <CardContent  className='pokemon-card-content' sx = {{alignItems: 'center'}}>
-                            <p style={{color: 'black', fontWeight: 'bold'}}>{pokemon.name}</p> 
-                            <div className='pokemon-card-types'>
-                            { pokemon.types.map((type: any) => {
-                                    return <Chip key={type.type.name} label={type.type.name}></Chip>
-                                })}
-                            </div>
-                        </CardContent>
-                    </Card>
-                )
+                    <CardMedia
+                        component="img"
+                        height="140"
+                        image={getPokemonImage(pokemon)}
+                        alt={pokemon.name}
+                    />
+                    <CommonCardContent />
+                </Card>
+            )
     }
 }
 
