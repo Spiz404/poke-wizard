@@ -27,12 +27,13 @@ function App() {
 
   // trainer details are complete if playerName, teamName and pokemonType are set
   const isTrainerDetailsComplete = trainerDetails.playerName !== "" && trainerDetails.teamName !== "" && trainerDetails.pokemonType !== "" 
-  
+
   /* 
     list of all pokemon types, 
-    inserted in the App component to avoid re-fetching on every render 
+    stored in the App component to avoid re-fetching on every render 
     of TeamSelectionComponent 
   */
+
   const [pokemonTypes, setPokemonTypes] = useState<TypeResult[]>([])
 
   // currentFavoritePokemonTyped contains the current favorite pokemon type that is listed as first in the select team pokemon page.
