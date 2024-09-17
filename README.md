@@ -17,5 +17,14 @@ To build the production version:
 ```bash
 npm run build
 ```
+This will first compile the typescript code and then bundle the react app into 
+a production ready version inside the `dist` folder.
 
-This will create a `dist` folder with the production version of the app.
+To run the production ready version:
+
+```bash
+npm install -g serve
+serve -s dist
+```
+
+this will start a local server and serve the app on port 3000.
