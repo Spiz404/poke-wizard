@@ -1,5 +1,6 @@
 import { Card, CardContent, CardMedia, Chip } from "@mui/material";
 import { PokemonAPIResponse } from "../types/pokemonAPI";
+import { getPokemonImage } from "../utils/getPokemonImage";
 
 const OpponentPokemonCard = ({pokemon  } : {pokemon : PokemonAPIResponse}) => {
         return (
@@ -8,7 +9,7 @@ const OpponentPokemonCard = ({pokemon  } : {pokemon : PokemonAPIResponse}) => {
                         component="img"
                         height="140"
                         alt={pokemon.name}
-                        src={pokemon.sprites.front_default || pokemon.sprites.front_shiny || pokemon.sprites.front_female || pokemon.sprites.other?.home.front_default || "../../public/question-mark.png"} />
+                        src={getPokemonImage(pokemon)} />
                     <CardContent className='pokemon-card-content'>
                         <p style={{color: 'black', fontWeight: 'bold', textAlign: 'center'}}>{pokemon.name}</p>
                         <div className='pokemon-card-types'>

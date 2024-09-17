@@ -1,4 +1,5 @@
 import { Card, CardContent, CardMedia, CardActionArea } from '@mui/material'
+import { getPokemonImage } from '../utils/getPokemonImage'
 
 const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (pokemonName: string) => void}) => {
 
@@ -8,7 +9,7 @@ const PokemonCard = ({pokemon, removePokemon}: {pokemon: any, removePokemon: (po
             <CardMedia
                 component="img"
                 height="100"
-                image={pokemon.sprites.front_default}
+                image={getPokemonImage(pokemon)}
                 alt={pokemon.name}
             />
             <CardContent  style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between', alignItems: 'center'}}>
