@@ -1,5 +1,5 @@
 import './App.css'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Stepper from "@mui/material/Stepper"
 import Step from "@mui/material/Step"
 import StepLabel from "@mui/material/StepLabel"
@@ -7,14 +7,12 @@ import TrainerComponent from './trainer-details/TrainerComponent'
 import TeamSelectionComponent from './pokemon-team-selection/TeamSelectionComponent'
 import OpponentTeamComponent from './opponent-team-generation/OpponentTeamComponent'
 import SuccessPage from './SuccessPage'
-import axios from 'axios'
 import { Snackbar, Alert, Button } from '@mui/material'
-import { TypeResult, PokemonTypeListAPIResponse } from './types/pokemonTypeAPI'
+import { TypeResult  } from './types/pokemonTypeAPI'
 import { TrainerDetails } from './types/appTypes'
 import { PokemonAPIResponse } from './types/pokemonAPI'
 import { Result } from './types/pokemonAPI'
 
-const API_BASE_URL = import.meta.env.VITE_BASE_API_URL
 
 function App() {
 
@@ -53,13 +51,14 @@ function App() {
   const [error, setError] = useState(false);
 
   // fetching pokemon types on App component mount 
+  /*
   useEffect(() => {
     console.log("fetching pokemon types");
     axios.get<PokemonTypeListAPIResponse>(`${API_BASE_URL}/type`)
     .then(res => res.data)
     .then((data) => {setPokemonTypes(data.results)})
   }, []);
-
+*/
   // team is selected if 7 pokemons are selected
   const isTeamSelected = selectedPokemons.length == 7
 
@@ -106,6 +105,7 @@ function App() {
         <TrainerComponent 
           setTrainerDetails={setTrainerDetails} 
           trainerDetails={trainerDetails} 
+          setPokemonTypes={setPokemonTypes}
           listPokemonTypes={pokemonTypes}/>
       </div>}
 
