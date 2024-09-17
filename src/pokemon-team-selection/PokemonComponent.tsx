@@ -13,7 +13,7 @@ const PokemonDialogComponent = ({pokemon, open, onClose, selectPokemon}: {pokemo
                     <h1>{pokemon.name}</h1>
                     <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', gap: '10px'}}>
                         <img style={{width: '100px', height: '100px'}} src={getPokemonImage(pokemon)} alt={pokemon.name} />
-                        <img style={{width: '100px', height: '100px'}} src={pokemon && (pokemon.sprites.back_default || pokemon.sprites.back_shiny || pokemon.sprites.back_female || "../../public/question-mark.png")} alt={pokemon.name} />
+                        <img style={{width: '100px', height: '100px'}} src={pokemon && (pokemon.sprites.back_default || pokemon.sprites.back_shiny || pokemon.sprites.back_female || "../../public/question_mark.png")} alt={pokemon.name} />
                     </div>
                     <h2>Types</h2>
                     <div className="types-container">
