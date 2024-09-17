@@ -51,15 +51,6 @@ function App() {
   const [errorMessage, setErrorMessage] = useState("");
   const [error, setError] = useState(false);
 
-  // fetching pokemon types on App component mount 
-  /*
-  useEffect(() => {
-    console.log("fetching pokemon types");
-    axios.get<PokemonTypeListAPIResponse>(`${API_BASE_URL}/type`)
-    .then(res => res.data)
-    .then((data) => {setPokemonTypes(data.results)})
-  }, []);
-*/
   // team is selected if 7 pokemons are selected
   const isTeamSelected = selectedPokemons.length == 7
 
