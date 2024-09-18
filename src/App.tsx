@@ -126,7 +126,7 @@ function App() {
 
     </div>
 
-    <Snackbar onClose={() => setError(false)} anchorOrigin={{vertical: 'top', horizontal: 'center'}} autoHideDuration={2000}  open={error}>
+    <Snackbar id="error-snackbar" onClose={() => setError(false)} anchorOrigin={{vertical: 'top', horizontal: 'center'}} autoHideDuration={2000}  open={error}>
       <Alert severity="error">{errorMessage}</Alert>
     </Snackbar>
     </>

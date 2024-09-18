@@ -29,6 +29,9 @@ const TrainerComponent = ({setTrainerDetails, trainerDetails, listPokemonTypes, 
             .then(data => {
                 setPokemonTypes(data.results)
             })
+            .catch(error => {
+                console.error(error)
+            })
         }
 
         setPlayerName(trainerDetails.playerName)
@@ -44,9 +47,11 @@ const TrainerComponent = ({setTrainerDetails, trainerDetails, listPokemonTypes, 
     return (
         <div className="trainer-form">
 
-            <TextField onChange={(e) => setPlayerName(e.target.value)} id="player-name" label="Player name" variant="outlined" value={playerName}/>
-            <TextField onChange={(e) => setTeamName(e.target.value)} id="team-name" label="Team name" variant="outlined" value={teamName}/>            
+            <TextField id = "trainer-name" onChange={(e) => setPlayerName(e.target.value)} label="Player name" variant="outlined" value={playerName}/>
+            <TextField id = "team-name" onChange={(e) => setTeamName(e.target.value)} label="Team name" variant="outlined" value={teamName}/>            
             <Autocomplete
+                data-testid="pokemon-type"
+                id = "pokemon-type"
                 disablePortal
                 options={listPokemonTypes.map(t => t.name)}
                 sx={{ width: 300 }}

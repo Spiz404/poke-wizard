@@ -154,7 +154,7 @@ const TeamSelectionComponent = (
     return (
         <>
             {openPokemonDialog && <PokemonDialogComponent  selectPokemon={selectPokemon} onClose={closePokemonDialog} pokemon={shownPokemon} open={openPokemonDialog}/>}
-            <Grid container spacing = {2} className="selected-team-grid">
+            <Grid id = "pokemon-grid" container spacing = {2} className="selected-team-grid">
                 { selectedPokemonList.length == 0 && <p className="no-pokemon-selected">No pokemons selected, select your team!</p> }
                 { selectedPokemonList.map((e) => {
                     return (
