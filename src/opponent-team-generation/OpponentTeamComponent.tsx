@@ -47,8 +47,8 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
             const gens = new Set();
             for (let pokemon of selectedPokemons) {
                 const species = pokemon.species.url;
-                const species_data = await fetch(species).then(res => res.json());
-                gens.add(species_data.generation.name);
+                const species_data = await axios.get<PokemonSpecieAPIResponse>(species);
+                gens.add(species_data.data.generation.name);
             }
             
             setGenerations(Array.from(gens) as string[]);
