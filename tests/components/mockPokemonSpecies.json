@@ -1,0 +1,5127 @@
+{
+  "https://pokeapi.co/api/v2/pokemon-species/1/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/2/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/3/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/4/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/5/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/6/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/7/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/8/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/9/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/10/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/11/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/12/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/13/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/14/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/15/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/16/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/17/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/18/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/19/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/20/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/21/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/22/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/23/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/24/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/25/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/26/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/27/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/28/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/29/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/30/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/31/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/32/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/33/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/34/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/35/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/36/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/37/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/38/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/39/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/40/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/41/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/42/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/43/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/44/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/45/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/46/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/47/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/48/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/49/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/50/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/51/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/52/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/53/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/54/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/55/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/56/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/57/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/58/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/59/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/60/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/61/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/62/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/63/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/64/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/65/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/66/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/67/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/68/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/69/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/70/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/71/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/72/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/73/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/74/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/75/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/76/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/77/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/78/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/79/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/80/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/81/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/82/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/83/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/84/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/85/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/86/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/87/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/88/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/89/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/90/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/91/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/92/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/93/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/94/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/95/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/96/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/97/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/98/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/99/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/100/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/101/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/102/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/103/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/104/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/105/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/106/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/107/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/108/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/109/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/110/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/111/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/112/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/113/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/114/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/115/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/116/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/117/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/118/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/119/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/120/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/121/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/122/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/123/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/124/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/125/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/126/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/127/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/128/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/129/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/130/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/131/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/132/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/133/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/134/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/135/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/136/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/137/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/138/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/139/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/140/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/141/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/142/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/143/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/144/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/145/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/146/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/147/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/148/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/149/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/150/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/151/": {
+    "generation": {
+      "name": "generation-i"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/152/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/153/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/154/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/155/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/156/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/157/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/158/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/159/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/160/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/161/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/162/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/163/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/164/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/165/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/166/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/167/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/168/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/169/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/170/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/171/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/172/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/173/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/174/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/175/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/176/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/177/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/178/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/179/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/180/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/181/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/182/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/183/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/184/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/185/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/186/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/187/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/188/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/189/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/190/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/191/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/192/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/193/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/194/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/195/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/196/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/197/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/198/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/199/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/200/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/201/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/202/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/203/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/204/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/205/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/206/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/207/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/208/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/209/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/210/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/211/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/212/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/213/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/214/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/215/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/216/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/217/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/218/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/219/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/220/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/221/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/222/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/223/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/224/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/225/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/226/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/227/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/228/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/229/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/230/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/231/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/232/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/233/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/234/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/235/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/236/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/237/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/238/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/239/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/240/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/241/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/242/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/243/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/244/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/245/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/246/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/247/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/248/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/249/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/250/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/251/": {
+    "generation": {
+      "name": "generation-ii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/252/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/253/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/254/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/255/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/256/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/257/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/258/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/259/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/260/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/261/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/262/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/263/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/264/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/265/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/266/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/267/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/268/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/269/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/270/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/271/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/272/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/273/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/274/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/275/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/276/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/277/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/278/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/279/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/280/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/281/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/282/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/283/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/284/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/285/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/286/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/287/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/288/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/289/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/290/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/291/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/292/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/293/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/294/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/295/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/296/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/297/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/298/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/299/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/300/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/301/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/302/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/303/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/304/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/305/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/306/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/307/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/308/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/309/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/310/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/311/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/312/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/313/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/314/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/315/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/316/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/317/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/318/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/319/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/320/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/321/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/322/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/323/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/324/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/325/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/326/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/327/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/328/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/329/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/330/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/331/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/332/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/333/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/334/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/335/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/336/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/337/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/338/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/339/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/340/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/341/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/342/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/343/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/344/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/345/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/346/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/347/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/348/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/349/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/350/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/351/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/352/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/353/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/354/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/355/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/356/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/357/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/358/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/359/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/360/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/361/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/362/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/363/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/364/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/365/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/366/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/367/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/368/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/369/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/370/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/371/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/372/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/373/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/374/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/375/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/376/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/377/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/378/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/379/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/380/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/381/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/382/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/383/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/384/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/385/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/386/": {
+    "generation": {
+      "name": "generation-iii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/387/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/388/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/389/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/390/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/391/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/392/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/393/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/394/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/395/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/396/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/397/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/398/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/399/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/400/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/401/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/402/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/403/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/404/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/405/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/406/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/407/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/408/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/409/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/410/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/411/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/412/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/413/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/414/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/415/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/416/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/417/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/418/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/419/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/420/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/421/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/422/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/423/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/424/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/425/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/426/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/427/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/428/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/429/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/430/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/431/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/432/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/433/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/434/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/435/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/436/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/437/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/438/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/439/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/440/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/441/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/442/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/443/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/444/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/445/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/446/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/447/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/448/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/449/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/450/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/451/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/452/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/453/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/454/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/455/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/456/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/457/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/458/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/459/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/460/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/461/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/462/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/463/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/464/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/465/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/466/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/467/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/468/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/469/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/470/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/471/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/472/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/473/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/474/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/475/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/476/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/477/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/478/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/479/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/480/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/481/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/482/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/483/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/484/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/485/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/486/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/487/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/488/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/489/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/490/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/491/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/492/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/493/": {
+    "generation": {
+      "name": "generation-iv"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/494/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/495/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/496/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/497/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/498/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/499/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/500/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/501/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/502/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/503/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/504/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/505/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/506/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/507/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/508/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/509/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/510/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/511/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/512/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/513/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/514/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/515/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/516/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/517/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/518/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/519/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/520/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/521/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/522/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/523/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/524/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/525/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/526/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/527/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/528/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/529/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/530/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/531/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/532/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/533/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/534/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/535/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/536/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/537/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/538/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/539/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/540/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/541/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/542/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/543/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/544/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/545/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/546/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/547/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/548/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/549/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/550/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/551/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/552/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/553/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/554/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/555/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/556/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/557/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/558/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/559/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/560/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/561/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/562/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/563/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/564/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/565/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/566/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/567/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/568/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/569/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/570/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/571/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/572/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/573/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/574/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/575/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/576/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/577/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/578/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/579/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/580/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/581/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/582/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/583/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/584/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/585/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/586/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/587/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/588/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/589/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/590/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/591/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/592/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/593/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/594/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/595/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/596/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/597/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/598/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/599/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/600/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/601/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/602/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/603/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/604/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/605/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/606/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/607/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/608/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/609/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/610/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/611/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/612/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/613/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/614/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/615/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/616/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/617/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/618/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/619/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/620/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/621/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/622/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/623/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/624/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/625/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/626/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/627/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/628/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/629/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/630/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/631/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/632/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/633/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/634/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/635/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/636/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/637/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/638/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/639/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/640/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/641/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/642/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/643/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/644/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/645/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/646/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/647/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/648/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/649/": {
+    "generation": {
+      "name": "generation-v"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/650/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/651/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/652/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/653/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/654/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/655/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/656/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/657/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/658/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/659/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/660/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/661/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/662/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/663/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/664/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/665/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/666/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/667/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/668/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/669/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/670/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/671/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/672/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/673/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/674/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/675/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/676/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/677/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/678/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/679/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/680/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/681/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/682/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/683/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/684/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/685/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/686/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/687/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/688/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/689/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/690/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/691/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/692/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/693/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/694/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/695/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/696/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/697/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/698/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/699/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/700/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/701/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/702/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/703/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/704/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/705/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/706/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/707/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/708/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/709/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/710/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/711/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/712/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/713/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/714/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/715/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/716/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/717/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/718/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/719/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/720/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/721/": {
+    "generation": {
+      "name": "generation-vi"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/722/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/723/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/724/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/725/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/726/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/727/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/728/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/729/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/730/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/731/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/732/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/733/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/734/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/735/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/736/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/737/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/738/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/739/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/740/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/741/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/742/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/743/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/744/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/745/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/746/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/747/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/748/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/749/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/750/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/751/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/752/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/753/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/754/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/755/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/756/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/757/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/758/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/759/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/760/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/761/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/762/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/763/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/764/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/765/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/766/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/767/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/768/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/769/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/770/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/771/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/772/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/773/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/774/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/775/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/776/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/777/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/778/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/779/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/780/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/781/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/782/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/783/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/784/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/785/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/786/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/787/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/788/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/789/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/790/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/791/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/792/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/793/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/794/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/795/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/796/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/797/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/798/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/799/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/800/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/801/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/802/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/803/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/804/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/805/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/806/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/807/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/808/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/809/": {
+    "generation": {
+      "name": "generation-vii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/810/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/811/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/812/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/813/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/814/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/815/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/816/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/817/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/818/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/819/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/820/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/821/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/822/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/823/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/824/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/825/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/826/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/827/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/828/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/829/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/830/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/831/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/832/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/833/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/834/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/835/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/836/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/837/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/838/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/839/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/840/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/841/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/842/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/843/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/844/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/845/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/846/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/847/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/848/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/849/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/850/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/851/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/852/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/853/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/854/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/855/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/856/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/857/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/858/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/859/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/860/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/861/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/862/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/863/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/864/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/865/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/866/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/867/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/868/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/869/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/870/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/871/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/872/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/873/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/874/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/875/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/876/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/877/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/878/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/879/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/880/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/881/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/882/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/883/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/884/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/885/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/886/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/887/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/888/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/889/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/890/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/891/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/892/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/893/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/894/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/895/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/896/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/897/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/898/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/899/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/900/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/901/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/902/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/903/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/904/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/905/": {
+    "generation": {
+      "name": "generation-viii"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/906/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/907/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/908/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/909/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/910/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/911/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/912/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/913/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/914/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/915/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/916/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/917/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/918/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/919/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/920/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/921/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/922/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/923/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/924/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/925/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/926/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/927/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/928/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/929/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/930/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/931/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/932/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/933/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/934/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/935/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/936/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/937/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/938/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/939/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/940/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/941/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/942/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/943/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/944/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/945/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/946/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/947/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/948/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/949/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/950/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/951/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/952/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/953/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/954/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/955/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/956/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/957/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/958/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/959/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/960/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/961/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/962/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/963/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/964/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/965/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/966/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/967/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/968/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/969/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/970/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/971/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/972/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/973/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/974/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/975/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/976/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/977/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/978/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/979/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/980/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/981/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/982/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/983/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/984/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/985/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/986/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/987/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/988/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/989/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/990/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/991/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/992/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/993/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/994/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/995/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/996/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/997/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/998/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/999/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1000/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1001/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1002/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1003/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1004/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1005/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1006/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1007/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1008/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1009/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1010/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1011/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1012/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1013/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1014/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1015/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1016/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1017/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1018/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1019/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1020/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1021/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1022/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1023/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1024/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  },
+  "https://pokeapi.co/api/v2/pokemon-species/1025/": {
+    "generation": {
+      "name": "generation-ix"
+    }
+  }
+}
