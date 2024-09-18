@@ -11,7 +11,7 @@ const SelectedPokemonCard = ({pokemon, removePokemon}: SelectedPokemonCardProps)
 
     return (
         <Card className="selected-pokemon-card" sx={{ width: 150, height: 250}} >
-            <CardActionArea onClick={() => removePokemon(pokemon.name)} sx={{color: 'red'}}>
+            <CardActionArea onClick={() => removePokemon(pokemon.name)} sx={{ height: '100%', color: 'red'}}>
             <CardMedia
                 component="img"
                 height="170px"
