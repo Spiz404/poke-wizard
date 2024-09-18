@@ -3,7 +3,7 @@ import Box from '@mui/material/Box';
 
 export default function CircularIndeterminate() {
   return (
-    <Box sx={{ display: 'flex', padding: "50px" }}>
+    <Box data-testid="circular-progress" sx={{ display: 'flex', padding: "50px" }}>
       <CircularProgress />
     </Box>
   );

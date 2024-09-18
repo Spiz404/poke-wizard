@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ui": "vitest --ui",
+    "test:ui": "vitest --testTimeout=15000 --ui",
     "vitest-preview" : "vitest-preview"
   },
   "dependencies": {

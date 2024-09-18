@@ -20,7 +20,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
     const [loading, setLoading] = useState(true);
     const [opponentTeam, setOpponentTeam] = useState<PokemonAPIResponse[]>([]);
 
-    const genereteOpponentTeam = async () => {
+    const genereteOpponentTeam = async (generationsList: string[]) => {
         
         const opponentTeam : Array<PokemonAPIResponse> = [];
 
@@ -30,8 +30,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
             const pokemonDetails = await axios.get<PokemonAPIResponse>(randomPokemon.url);
             const data = pokemonDetails.data.species.url;
             const pokemonSpecie = await axios.get<PokemonSpecieAPIResponse>(data);
-
-            if (!generations.includes(pokemonSpecie.data.generation.name)) {
+            if (!generationsList.includes(pokemonSpecie.data.generation.name)) {
                 opponentTeam.push(pokemonDetails.data);
             }
         }
@@ -50,9 +49,9 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
                 const species_data = await axios.get<PokemonSpecieAPIResponse>(species);
                 gens.add(species_data.data.generation.name);
             }
-            
-            setGenerations(Array.from(gens) as string[]);
-            const team = await genereteOpponentTeam();
+            const generationsList = Array.from(gens) as string[];
+            setGenerations(generations);
+            const team = await genereteOpponentTeam(generationsList);
             setOpponentTeam(team);
             setLoading(false);
         }
@@ -64,7 +63,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
 
     const newTeam = () => {
         setLoading(true);
-        genereteOpponentTeam().then(team => {setOpponentTeam(team); setLoading(false)});
+        genereteOpponentTeam(generations).then(team => {setOpponentTeam(team); setLoading(false)});
     }
 
     if (loading) {
@@ -74,7 +73,7 @@ const OpponentTeamComponent = ({selectedPokemons, pokemonsList}: OpponentTeamCom
         <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 40}}>
             <h1>Opponent Team</h1>
             <Grid container spacing={2} sx={{display: 'flex', justifyContent: 'center', gap: 10}}>
-                {opponentTeam.map(pokemon => <OpponentPokemonCard key = {pokemon.name} pokemon={pokemon} />)}
+                {opponentTeam.map(pokemon => <OpponentPokemonCard data-testid="opponent-pokemon-card" key = {pokemon.name} pokemon={pokemon} />)}
             </Grid>
 
                 <Button variant="contained" onClick={() => newTeam()} >
