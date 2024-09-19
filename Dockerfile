@@ -10,6 +10,8 @@ RUN npm install
 
 RUN npm run build
 
-ENV VITE_BASE_API_URL=https://pokeapi.co/api/v2
+EXPOSE 8080
+
+ENV VITE_BASE_API_URL=https://pokeapi.co/api/v2/
 
 CMD ["serve", "-s", "dist"]
