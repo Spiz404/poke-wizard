@@ -5,7 +5,7 @@
 To run the app, you need to create a `.env` file in the root of the project with the following:
 
 ```bash
-VITE_BASE_API_URL=https://pokeapi.co/api/v2
+VITE_BASE_API_URL=https://pokeapi.co/api/v2/
 ```
 
 ## Dev environment
