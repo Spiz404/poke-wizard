@@ -28,3 +28,19 @@ serve -s dist
 ```
 
 this will start a local server and serve the app on port 3000.
+
+## Docker
+
+To build the docker image:
+
+```bash
+docker build -t poke-wizard .
+```
+
+To run the docker container:
+
+```bash
+docker run -dp 3000:3000 poke-wizard
+```
+
+This will start the docker container in detached mode and serve the app on port 3000.
