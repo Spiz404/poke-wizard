@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest",
-    "test:ui": "vitest --testTimeout=15000 --ui",
+    "test:ui": "vitest --testTimeout=15000 --ui"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
