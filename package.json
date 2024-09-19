@@ -10,7 +10,6 @@
     "preview": "vite preview",
     "test": "vitest",
     "test:ui": "vitest --testTimeout=15000 --ui",
-    "vitest-preview" : "vitest-preview"
   },
   "dependencies": {
     "@emotion/react": "^11.13.3",
